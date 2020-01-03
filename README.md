@@ -4,11 +4,13 @@ Repository used for practicing github commands.
  
 
 * Opens Help Page
-	`git config --help`
-`git config --help`
+
+	- `git config --help`
+- `git config --help`
+
 
 * Shows help for specific action
-	```
+	
 	git <verb> --help
 	git help <verb>
 	```
