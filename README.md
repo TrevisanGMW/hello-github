@@ -68,3 +68,6 @@ git branch <branch-name>
 git branch
 git checkout <branch-name>
 
+: Changes current remote repository
+git remote set-url origin <URL>
+git remote set-url origin https://github.com/TrevisanGMW/hello-world.git
