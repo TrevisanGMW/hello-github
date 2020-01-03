@@ -1,7 +1,6 @@
-# Hello-World - Github
+# Git Basic Commands (Hello-World)
 Repository used for practicing github commands.
 
- 
 
 * Opens Help Page
 
@@ -83,3 +82,27 @@ e.g. .DS_Store
 * Changes current remote repository
 	- `git remote set-url origin <URL>`
 	- `git remote set-url origin https*//github.com/TrevisanGMW/hello-world.git`
+	
+* Shows difference between old and new file	
+	- `git diff` 
+
+
+* Creates and Switches to branch for desired feature
+	- `git branch <New-Branch-Name>`
+	- `git checkout <New-Branch-Name>`
+
+* Push to Specific Branch
+	- `git push -u origin <New-Branch-Name>`
+
+* Returns Branches that have been merged so far
+	- `git branch --merged`
+
+* Merge Another Branch with Current Branch
+	- `git merge <Branch-Name>`
+	- `git push origin master`
+
+* Deleting a Branch
+	- `git branch --merged`
+	- `git branch -d <Branch-Name>`
+	- `git push origin --delete <Branch-Name>`
+
