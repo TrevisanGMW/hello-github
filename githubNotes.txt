@@ -2,3 +2,6 @@ git clone URL*
 git status
 git add FILENAME*
 git commit -m "did something" (m for message)   - to lock it as good to go
+git add . 	adds everything
+git add -A      add All
+git push 	send to github
