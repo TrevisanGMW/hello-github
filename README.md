@@ -16,94 +16,70 @@ Repository used for practicing github commands.
 * Returns Version
 	- `git --version`
 
-* `git config --global user.name "FirstName LastName"` : Sets Initial Settings
-* `git config --global user.email "userEmail"`
+* Sets Initial Settings
+	- `git config --global user.name "FirstName LastName"` 
+	- `git config --global user.email "userEmail"`
 
 * Returns Current Settings
-
-* `git config --list`
+	- `git config --list`
 
 * Initialize Directory
-
-* `git init`
+	- `git init`
 
 * Stop Tracking Directory
+	- `rm -rf .git`
 
-`rm -rf .git`
-
-* Create * `git Ignore File
-
-`touch .gitignore`
-
+* Create 	- `git Ignore File
+	- `touch .gitignore`
 e.g. *.pyc
 e.g. .DS_Store
 
 * Check Status of Current Directory
-
-* `git status`
+	- `git status`
 
 * Add All Files to Staging Area
-
-* `git add .`
-
-* `git add -A`
+	- `git add .`
+	- `git add -A`
 
 * Add a Files to Staging Area
-
-* `git add fileName.ext`
+	- `git add fileName.ext`
 
 * Resets Entire Current Staging Area
-
-* `git reset`
+	- `git reset`
 
 * Removes Specific File from Staging Area
-
-* `git reset fileName.ext`
+	- `git reset fileName.ext`
 
 * Commit With Small Message
-
-* `git commit -m "<message>"`
+	- `git commit -m "<message>"`
 
 * Send Committed Files to Repository
-
-* `git push`
+	- `git push`
 
 * Show the Current Commit
-
-* `git log`
+	- `git log`
 
 * Cloning a Remote Repository
-
-* `git clone <URL>`
-
-* `git clone <URL> <DIRECTORY>`
+	- `git clone <URL>`
+	- `git clone <URL> <DIRECTORY>`
 
 * Info about the Repository
-
-* `git remote -v`
+	- `git remote -v`
 
 * Returns All Branches
-
-* `git branch -a`
+	- `git branch -a`
 
 * Show Changes Since Last Commit
-
-* `git diff`
+	- `git diff`
 
 * Download Changes (Should Pull after Pushing)
-
-* `git pull`
+	- `git pull`
 
 * Create Branch
-
-* `git branch <branch-name>`
-
-* `git branch`
-
-* `git checkout <branch-name>`
+	- `git branch <branch-name>`
+	- `git branch`
+	- `git checkout <branch-name>`
 
 * Changes current remote repository
-
-* `git remote set-url origin <URL>`
-
-* `git remote set-url origin https*//github.com/TrevisanGMW/hello-world.git`
+	- `git remote set-url origin <URL>`
+	- `git remote set-url origin https*//github.com/TrevisanGMW/hello-world.git`
