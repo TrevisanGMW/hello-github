@@ -2,6 +2,7 @@
 Repository used for practicing github commands.
 
 * Opens Help Page
+
 `git config --help`
 * Show help for specific action
 `git <verb> --help`
