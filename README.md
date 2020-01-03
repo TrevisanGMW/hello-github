@@ -5,9 +5,11 @@ Repository used for practicing github commands.
 
 * `git config --help` : Opens Help Page
 
-*Shows help for specific action
-** `git <verb> --help` :  
-** `git help <verb>`
+* Shows help for specific action
+	```
+	git <verb> --help
+	git help <verb>
+	```
 
 * `git --version` : Returns Version
 
