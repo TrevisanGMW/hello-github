@@ -3,7 +3,9 @@ Repository used for practicing github commands.
 
  
 
-* `git config --help` : Opens Help Page
+* Opens Help Page
+	`git config --help`
+`git config --help`
 
 * Shows help for specific action
 	```
