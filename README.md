@@ -1,9 +1,9 @@
 # Hello-World - Github
 Repository used for practicing github commands.
 
-* Opens Help Page
+ 
 
-`git config --help`
+* `git config --help` : Opens Help Page
 
 * Show help for specific action
 
@@ -34,6 +34,7 @@ Repository used for practicing github commands.
 * Create `git Ignore File
 
 `touch .gitignore`
+
 e.g. *.pyc
 e.g. .DS_Store
 
@@ -74,6 +75,7 @@ e.g. .DS_Store
 * Cloning a Remote Repository
 
 `git clone <URL>`
+
 `git clone <URL> <DIRECTORY>`
 
 * Info about the Repository
@@ -95,10 +97,13 @@ e.g. .DS_Store
 * Create Branch
 
 `git branch <branch-name>`
+
 `git branch`
+
 `git checkout <branch-name>`
 
 * Changes current remote repository
 
 `git remote set-url origin <URL>`
+
 `git remote set-url origin https*//github.com/TrevisanGMW/hello-world.git`
