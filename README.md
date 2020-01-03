@@ -6,16 +6,15 @@ Repository used for practicing github commands.
 * Opens Help Page
 
 	- `git config --help`
-- `git config --help`
-
 
 * Shows help for specific action
 	
-	git <verb> --help
-	git help <verb>
-	```
+	- `git <verb> --help`
+	- `git help <verb>`
 
-* `git --version` : Returns Version
+
+* Returns Version
+	- `git --version`
 
 * `git config --global user.name "FirstName LastName"` : Sets Initial Settings
 * `git config --global user.email "userEmail"`
