@@ -14,6 +14,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+[![Total Downloads][total-downloads-shield]][total-downloads-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -29,7 +30,18 @@
 [stars-url]: https://github.com/TrevisanGMW/maya-scripts/stargazers
 [issues-shield]: https://img.shields.io/github/issues/TrevisanGMW/maya-scripts.svg?style=flat-square
 [issues-url]: https://github.com/TrevisanGMW/maya-scripts/issues
+[total-downloads-shield]: https://poser.pugx.org/aimeos/aimeos-typo3/d/total.svg
+[total-downloads-url]: https://packagist.org/packages/aimeos/aimeos-typo3
 [license-shield]: https://img.shields.io/github/license/TrevisanGMW/maya-scripts.svg?style=flat-square
 [license-url]: https://github.com/TrevisanGMW/maya-scripts/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/trevisangmw/
+
+
+# Maya Scripts
+Some useful scripts for Maya written in MEL and Python language.
+
+## Organization
+* `gt_tools`: gt_tools script package (MEL & Python).
+* `mel-scripts`: contains scripts written in MEL
+* `python-scripts`: contains scripts written in Python
