@@ -10,6 +10,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+<p align="center">
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -17,7 +18,7 @@
 [![Total Downloads][total-downloads-shield]][total-downloads-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
+<p align="center">
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -30,8 +31,10 @@
 [stars-url]: https://github.com/TrevisanGMW/maya-scripts/stargazers
 [issues-shield]: https://img.shields.io/github/issues/TrevisanGMW/maya-scripts.svg?style=flat-square
 [issues-url]: https://github.com/TrevisanGMW/maya-scripts/issues
-[total-downloads-shield]: https://poser.pugx.org/aimeos/aimeos-typo3/d/total.svg
-[total-downloads-url]: https://packagist.org/packages/aimeos/aimeos-typo3
+
+[total-downloads-shield]: https://poser.pugx.org/TrevisanGMW/maya-scripts/d/total.svg
+[total-downloads-url]: https://packagist.org/packages/TrevisanGMW/maya-scripts
+
 [license-shield]: https://img.shields.io/github/license/TrevisanGMW/maya-scripts.svg?style=flat-square
 [license-url]: https://github.com/TrevisanGMW/maya-scripts/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
