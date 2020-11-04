@@ -18,7 +18,7 @@
 [![Total Downloads][total-downloads-shield]][total-downloads-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-<p align="center">
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -40,7 +40,7 @@
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/trevisangmw/
 
-
+<p align="center">
 <p align="center">
 	<a href="https://demo.thelounge.chat/"><img
 		alt="#thelounge IRC channel on freenode"
