@@ -40,7 +40,13 @@ Some useful scripts for Maya written in MEL and Python language.
 This is my free collection of scripts for Autodesk Maya.
 
 It adds a pull-down menu to provide easy access to a variety of tools. 
-This menu contains sub-menus that have been organized to contain related tools.
+This menu contains sub-menus that have been organized to contain related tools. 
+
+All of these items are supplied as is. 
+You alone are soley responsible for any issues. 
+Use at your own risk. 
+					
+Hopefully these scripts are helpful to you as they were to me. 
 
 ## Licensing
 
