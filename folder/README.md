@@ -28,7 +28,7 @@
 </p>
 
 
-# Maya Scripts - GT Tools
+# Maya Scripts
 Some useful scripts for Maya written in MEL and Python language.
 
 ## Organization
@@ -36,6 +36,12 @@ Some useful scripts for Maya written in MEL and Python language.
 * `mel-scripts`: contains scripts written in MEL
 * `python-scripts`: contains scripts written in Python
 
+## GT Tools
+This is my free collection of scripts for Autodesk Maya.
+
+It adds a pull-down menu to provide easy access to a variety of tools. 
+This menu contains sub-menus that have been organized to contain related tools.
+
 ## Licensing
 
-The MIT License 2019 Supun Lakmal
+The MIT License 2020 Guilherme Trevisan
