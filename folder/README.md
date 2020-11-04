@@ -40,7 +40,8 @@
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/trevisangmw/
 
-<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/TrevisanGMW/maya-scripts.svg?style=flat-square" href="https://github.com/TrevisanGMW/maya-scripts/graphs/contributors">
+<a href="https://github.com/TrevisanGMW/maya-scripts/graphs/contributors">
+<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/TrevisanGMW/maya-scripts.svg?style=flat-square" ></a>
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/TrevisanGMW/maya-scripts?style=flat-square">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/TrevisanGMW/maya-scripts?style=flat-square">
 
