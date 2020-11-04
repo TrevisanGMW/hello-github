@@ -4,7 +4,7 @@
 
 <!-- Maya Scripts -->
 
-
+<p></p>
 <p align="center"> 
 <a href="https://github.com/TrevisanGMW/maya-scripts/graphs/contributors">
 <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/TrevisanGMW/maya-scripts.svg?style=flat-square" ></a>
@@ -25,14 +25,17 @@
 
 <a href="https://www.linkedin.com/in/trevisangmw/">
 <img alt="GitHub stars" src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555" ></a>
-
 </p>
 
 
-# Maya Scripts
+# Maya Scripts - GT Tools
 Some useful scripts for Maya written in MEL and Python language.
 
 ## Organization
 * `gt_tools`: gt_tools script package (MEL & Python).
 * `mel-scripts`: contains scripts written in MEL
 * `python-scripts`: contains scripts written in Python
+
+## Licensing
+
+The MIT License 2019 Supun Lakmal
