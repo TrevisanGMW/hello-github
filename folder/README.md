@@ -1,5 +1,9 @@
 <!-- Maya Scripts -->
 
+
+<img src="gt_logo.png">
+
+
 <p></p>
 <p align="center"> 
 <a href="https://github.com/TrevisanGMW/maya-scripts/graphs/contributors">
