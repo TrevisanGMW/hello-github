@@ -1,7 +1,3 @@
-
-
-
-
 <!-- Maya Scripts -->
 
 <p></p>
@@ -50,4 +46,4 @@ Hopefully these scripts are helpful to you as they were to me.
 
 ## Licensing
 
-The MIT License 2020 Guilherme Trevisan
+The MIT License 2020 - Guilherme Trevisan
