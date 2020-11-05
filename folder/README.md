@@ -1,7 +1,7 @@
 <!-- Maya Scripts -->
 
 
-<img src="gt_logo.png">
+<img src="../gt_logo.png">
 
 
 <p></p>
