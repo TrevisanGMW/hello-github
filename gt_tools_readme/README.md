@@ -110,7 +110,7 @@ In case you need/want to manually install the scripts. It's also a pretty straig
 <ul>
 	<li><b>How do I update GT Tools to a new version?</b> <br>A: Simply install it again, it will overwrite previous files.</li>
 	<li><b>What do I do if I have multiple "userSetup.mel" files?</b> One inside "maya/####/scripts" and another one inside "maya/scripts"<br>A: The "userSetup.mel" file gets executed when you open Maya, but Maya supports only one file. In case you have two files it will give priority to the file located inside "maya/####/scripts", so manage your initialization commands there.</li>
-	<li><b>Where are the other scripts you had in this repository?</b> <br> A: I moved all other scripts that are not part of GT Tools to another reposity. Here is the link: https://github.com/TrevisanGMW/maya-scripts</li>
+	<li><b>Where are the other scripts you had in this repository?</b> <br> A: I moved all other scripts that are not part of GT Tools to another reposity. Here is the link: <a href="https://github.com/TrevisanGMW/maya-scripts">TrevisanGMW/maya-scripts</a> </li>
 </ul>
 
 ## Licensing
