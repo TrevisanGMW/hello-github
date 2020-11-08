@@ -113,6 +113,12 @@ In case you need/want to manually install the scripts. It's also a pretty straig
 	<li><b>Where are the other scripts you had in this repository?</b> <br> A: I moved all other scripts that are not part of GT Tools to another reposity. Here is the link: <a href="https://github.com/TrevisanGMW/maya-scripts">TrevisanGMW/maya-scripts</a> </li>
 </ul>
 
+
+
 ## Licensing
 
 The MIT License 2020 - Guilherme Trevisan
+
+## Contributors
+<a href="https://github.com/kefranabg/readme-md-generator/graphs/contributors"><img src="https://opencollective.com/readme-md-generator/contributors.svg?width=890&button=false" /></a>
+[![](https://sourcerer.io/fame/sergey48k/sourcerer-io/hall-of-fame/images/0)](https://sourcerer.io/fame/sergey48k/sourcerer-io/hall-of-fame/links/0)
