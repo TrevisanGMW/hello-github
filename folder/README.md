@@ -63,17 +63,20 @@ Here is how you do it in more details:
 
 If you want, you can now delete the downloaded/extracted files (as they have already been installed)
 
-`Manual Installation`:
 <ol>
+Manual Installation:
+
 In case you need/want to manually install the scripts. It's also a pretty straightforward process.
-<li>1. Close Maya (in case it's opened).</li>
-<li>2. Un-zip (Decompress) the file you downloaded.</li>
-<li>3. Move all the contents from the folders "mel-scripts" and "python-scripts" to your scripts folder (usually located under the path below):
-<b>C:\Users\USERNAME\Documents\maya\VERSION\scripts\ </b></li>
-<li>4. In case you don't want to replace an already existing <b>"userSetup.mel" </b> script (inside your scripts folder), you can easily merge them by opening the existing one and adding the line: <b>"source "gt_tools_menu.mel";" </b>
-(Without quotation marks)</li>
-(This command adds the menu when Maya opens)
-<li>5. Restart Autodesk Maya. </li>
+<ol>
+	<li>1. Close Maya (in case it's opened).</li>
+	<li>2. Un-zip (Decompress) the file you downloaded.</li>
+	<li>3. Move all the contents from the folders "mel-scripts" and "python-scripts" to your scripts folder (usually located under the path below):
+	<b>C:\Users\USERNAME\Documents\maya\VERSION\scripts\ </b></li>
+	<li>4. In case you don't want to replace an already existing <b>"userSetup.mel" </b> script (inside your scripts folder), you can easily merge them by opening the existing one and adding the line: <b>"source "gt_tools_menu.mel";" </b>
+	(Without quotation marks)</li>
+	(This command adds the menu when Maya opens)
+	<li>5. Restart Autodesk Maya. </li>
+</ol>
 </ol>
 
 ## Licensing
