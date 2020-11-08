@@ -31,7 +31,7 @@
 </p>
 
 
-## Description
+<h1> Description </h1>
 This is my collection of scripts for Autodesk Maya – These scripts were created with the aim of automating, enhancing or simply filling the missing details of what I find lacking in Maya.
 
 After installing the script collection, you’ll find a pull-down menu that provides easy access to a variety of tools. This menu contains sub-menus that have been organized to contain related tools, for example: modeling, rigging, utilities, etc…
@@ -44,15 +44,15 @@ Hopefully these scripts are helpful to you as they are to me.
 <p style="text-align:right"><b>Tested using Autodeks Maya 2020 (Windows 10)</b></p>
 
 
-## Organization
+<h1> Organization </h1>
 * `mel-scripts`: contains scripts written in MEL
 * `python-scripts`: contains scripts written in Python
 
-## Installation
+<h1> Installation </h1>
 
 <b>TL;DR :</b> Download files, then open "setup.bat".
 
-<h1>Auto Installation</h1>
+<h2>Auto Installation</h2>
 
 This script collection comes with an auto installer (setup.bat) you can simply download it, run the setup and reopen Maya.
 Here is how you do it in more details:
@@ -82,7 +82,7 @@ In case you need/want to manually install the scripts. It's also a pretty straig
 	<li>Open Autodesk Maya. </li>
 </ol>
 
-## Uninstallation
+<h1> Uninstallation </h1>
 
 `Auto Uninstallation`
 
@@ -106,19 +106,19 @@ In case you need/want to manually install the scripts. It's also a pretty straig
 	<li>Open Autodesk Maya. </li>
 </ol>
 
-## Frequently Asked Questions
+<h1> Frequently Asked Questions </h1>
 <ul>
 	<li><b>How do I update GT Tools to a new version?</b> <br>A: Simply install it again, it will overwrite previous files.</li>
 	<li><b>What do I do if I have multiple "userSetup.mel" files?</b> One inside "maya/####/scripts" and another one inside "maya/scripts"<br>A: The "userSetup.mel" file gets executed when you open Maya, but Maya supports only one file. In case you have two files it will give priority to the file located inside "maya/####/scripts", so manage your initialization commands there.</li>
 	<li><b>Where are the other scripts you had in this repository?</b> <br> A: I moved all other scripts that are not part of GT Tools to another reposity. Here is the link: <a href="https://github.com/TrevisanGMW/maya-scripts">TrevisanGMW/maya-scripts</a> </li>
 </ul>
 
-## Contributors
+<h1> Contributors </h1>
 <a href="https://github.com/TrevisanGMW/gt-tools/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=TrevisanGMW/gt-tools" />
 </a>
 
-## Licensing
+<h1> Licensing </h1>
 
 The MIT License 2020 - Guilherme Trevisan
 
