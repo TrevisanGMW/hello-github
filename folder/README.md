@@ -47,7 +47,7 @@ Hopefully these scripts are helpful to you as they are to me.
 * `python-scripts`: contains scripts written in Python
 
 ## Installation
-`Auto Installation`:
+`Auto Installation`
 
 This script collection comes with an auto installer (setup.bat) you can simply download it, run the setup and reopen Maya.
 Here is how you do it in more details:
@@ -63,8 +63,7 @@ Here is how you do it in more details:
 
 If you want, you can now delete the downloaded/extracted files (as they have already been installed)
 
-<ol>
-Manual Installation:
+`Manual Installation`
 
 In case you need/want to manually install the scripts. It's also a pretty straightforward process.
 <ol>
@@ -76,7 +75,6 @@ In case you need/want to manually install the scripts. It's also a pretty straig
 	(Without quotation marks)</li>
 	(This command adds the menu when Maya opens)
 	<li>5. Restart Autodesk Maya. </li>
-</ol>
 </ol>
 
 ## Licensing
