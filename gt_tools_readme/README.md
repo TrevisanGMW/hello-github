@@ -45,8 +45,8 @@ Hopefully these scripts are helpful to you as they are to me.
 
 
 <h1> Organization </h1>
-<code>mel-scripts</code>: contains scripts written in MEL
-<code>python-scripts</code>: contains scripts written in Python
+<p><code>mel-scripts</code>: contains scripts written in MEL</p>
+<p><code>python-scripts</code>: contains scripts written in Python</p>
 
 <h1> Installation </h1>
 
