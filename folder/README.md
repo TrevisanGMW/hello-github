@@ -41,7 +41,7 @@ For help on how to use these scripts, click on the “Help” button at the top 
 All of these items are supplied as is. You alone are solely responsible for any issues. Use at your own risk. 
 Hopefully these scripts are helpful to you as they are to me.
 
-Tested using Maya 2018.2 to 2020.2 (Windows 10)
+<p><b>Tested using Maya 2018.2 to 2020.2 (Windows 10)</b></p>
 
 
 ## Organization
@@ -61,7 +61,7 @@ Here is how you do it in more details:
 	<li>Download the latest release (or clone this repository).</li>
 	<li>Un-zip (Decompress) the file you downloaded. (the setup won't work if it's still compressed)</li>
 	<li>Open "setup.bat". (It will show you the options - "Install, Uninstall and About")</li>
-	<li>Type "1" for the "install" option and press enter.</li>
+	<li>Type "1" for the "install" option, then press enter.</li>
 	<li>Open Autodesk Maya.</li>
 </ol>
 
@@ -91,7 +91,7 @@ In case you need/want to manually install the scripts. It's also a pretty straig
 	<li>Download the latest release (or clone this repository).</li>
 	<li>Un-zip (Decompress) the file you downloaded.</li>
 	<li>Open "setup.bat". (It will show you the options - "Install, Uninstall and About")</li>
-	<li>Type "2" for the "uninstall" option and press enter.</li>
+	<li>Type "2" for the "uninstall" option, then press enter.</li>
 	<li>Open Autodesk Maya.</li>
 </ol>
 
