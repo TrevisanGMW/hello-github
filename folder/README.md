@@ -66,8 +66,8 @@ In case you need/want to manually install the scripts. It's also a pretty straig
 1. Close Maya (in case it's opened).
 2. Un-zip (Decompress) the file you downloaded.
 3. Move all the contents from the folders "mel-scripts" and "python-scripts" to your scripts folder (usually located under the path below):
-<b>C:\Users\USERNAME\Documents\maya\VERSION\scripts\</b>
-4. In case you don't want to replace an already existing <b>"userSetup.mel"</b> script (inside your scripts folder), you can easily merge them by opening the existing one and adding the line: <b>"source "gt_tools_menu.mel";"</b>
+<b>C:\Users\USERNAME\Documents\maya\VERSION\scripts\ </b>
+4. In case you don't want to replace an already existing <b>"userSetup.mel" </b> script (inside your scripts folder), you can easily merge them by opening the existing one and adding the line: <b>"source "gt_tools_menu.mel";" </b>
 (Without quotation marks)
 
 
