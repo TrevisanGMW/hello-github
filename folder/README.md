@@ -41,6 +41,8 @@ For help on how to use these scripts, click on the “Help” button at the top 
 All of these items are supplied as is. You alone are solely responsible for any issues. Use at your own risk. 
 Hopefully these scripts are helpful to you as they are to me.
 
+Tested using Maya 2018.2 to 2020.2 (Windows 10)
+
 
 ## Organization
 * `mel-scripts`: contains scripts written in MEL
@@ -109,6 +111,7 @@ In case you need/want to manually install the scripts. It's also a pretty straig
 	<li><b>How do I update GT Tools to a new version?</b> <br>A: Simply install it again, it will overwrite previous files.</li>
 	<li><b>What do I do if I have multiple "userSetup.mel" files?</b> One inside "maya/####/scripts" and another one inside "maya/scripts"<br>A: The "userSetup.mel" file gets executed when you open Maya, but Maya supports only one file. In case you have two files it will give priority to the file located inside "maya/####/scripts", so manage your initialization commands there.</li>
 </ul>
+
 ## Licensing
 
 The MIT License 2020 - Guilherme Trevisan
