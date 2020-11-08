@@ -1,6 +1,6 @@
 <!-- GT Tools README.md file -->
 
-<img src="../gt_logo.png">
+<img src="./gt_logo.png">
 
 <p></p>
 <p align="center"> 
@@ -23,18 +23,14 @@
 
 <a href="https://www.linkedin.com/in/trevisangmw/">
 <img alt="GitHub stars" src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555" ></a>
+
+ <a href="https://www.paypal.me/TrevisanGMW"> 
+    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat-square">
 </p>
 
 
-# GT Tools
-Some useful scripts for Maya written in MEL and Python language.
-
-## Organization
-* `gt_tools`: gt_tools script package (MEL & Python).
-* `mel-scripts`: contains scripts written in MEL
-* `python-scripts`: contains scripts written in Python
-
-## GT Tools
+## Description
+GT Tools Some useful scripts for Maya written in MEL and Python language.
 This is my free collection of scripts for Autodesk Maya.
 
 It adds a pull-down menu to provide easy access to a variety of tools. 
@@ -45,6 +41,13 @@ You alone are soley responsible for any issues.
 Use at your own risk. 
 					
 Hopefully these scripts are helpful to you as they were to me. 
+
+
+## Organization
+* `mel-scripts`: contains scripts written in MEL
+* `python-scripts`: contains scripts written in Python
+
+## Installation
 
 ## Licensing
 
