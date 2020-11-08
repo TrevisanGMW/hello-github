@@ -47,6 +47,10 @@ Hopefully these scripts are helpful to you as they are to me.
 * `python-scripts`: contains scripts written in Python
 
 ## Installation
+
+TL;DR
+Download files, then open "setup.bat".
+
 `Auto Installation`
 
 This script collection comes with an auto installer (setup.bat) you can simply download it, run the setup and reopen Maya.
