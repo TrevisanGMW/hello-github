@@ -51,12 +51,15 @@ Hopefully these scripts are helpful to you as they are to me.
 
 This script collection comes with an auto installer (setup.bat) you can simply download it, run the setup and reopen Maya.
 Here is how you do it in more details:
-1. Close Maya (in case it's opened).
-2. Download the latest release (or clone this repository).
-3. Un-zip (Decompress) the file you downloaded. (the setup won't work if it's still compressed)
-4. Open "setup.bat". (It will show you the options - "Install, Uninstall and About")
-5. Type "1" for installing and press enter.
-6. Restart Autodesk Maya.
+<ol>
+	<li>1. Close Maya (in case it's opened).</li>
+	<li>2. Download the latest release (or clone this repository).</li>
+	<li>3. Un-zip (Decompress) the file you downloaded. (the setup won't work if it's still compressed)</li>
+	<li>4. Open "setup.bat". (It will show you the options - "Install, Uninstall and About")</li>
+	<li>5. Type "1" for installing and press enter.</li>
+	<li>6. Restart Autodesk Maya.</li>
+</ol>
+
 
 If you want, you can now delete the downloaded/extracted files (as they have already been installed)
 
