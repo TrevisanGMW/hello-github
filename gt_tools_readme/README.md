@@ -52,7 +52,7 @@ Hopefully these scripts are helpful to you as they are to me.
 
 <b>TL;DR :</b> Download files, then open "setup.bat".
 
-`Auto Installation`
+<h1>Auto Installation</h1>
 
 This script collection comes with an auto installer (setup.bat) you can simply download it, run the setup and reopen Maya.
 Here is how you do it in more details:
@@ -113,13 +113,12 @@ In case you need/want to manually install the scripts. It's also a pretty straig
 	<li><b>Where are the other scripts you had in this repository?</b> <br> A: I moved all other scripts that are not part of GT Tools to another reposity. Here is the link: <a href="https://github.com/TrevisanGMW/maya-scripts">TrevisanGMW/maya-scripts</a> </li>
 </ul>
 
-
+## Contributors
+<a href="https://github.com/TrevisanGMW/gt-tools/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=TrevisanGMW/gt-tools" />
+</a>
 
 ## Licensing
 
 The MIT License 2020 - Guilherme Trevisan
 
-## Contributors
-<a href="https://github.com/TrevisanGMW/gt-tools/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=TrevisanGMW/gt-tools" />
-</a>
