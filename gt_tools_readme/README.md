@@ -120,5 +120,6 @@ In case you need/want to manually install the scripts. It's also a pretty straig
 The MIT License 2020 - Guilherme Trevisan
 
 ## Contributors
-<a href="https://github.com/kefranabg/readme-md-generator/graphs/contributors"><img src="https://opencollective.com/readme-md-generator/contributors.svg?width=890&button=false" /></a>
-[![](https://sourcerer.io/fame/sergey48k/sourcerer-io/hall-of-fame/images/0)](https://sourcerer.io/fame/sergey48k/sourcerer-io/hall-of-fame/links/0)
+<a href="https://github.com/TrevisanGMW/gt-tools/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=TrevisanGMW/gt-tools" />
+</a>
