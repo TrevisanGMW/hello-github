@@ -68,7 +68,7 @@ Here is how you do it in more details:
 
 If you want, you can now delete the downloaded/extracted files (as they have already been installed)
 
-`Manual Installation`
+<h3>Manual Installation</h3>
 
 In case you need/want to manually install the scripts. It's also a pretty straightforward process.
 <ol>
@@ -84,7 +84,7 @@ In case you need/want to manually install the scripts. It's also a pretty straig
 
 <h1> Uninstallation </h1>
 
-`Auto Uninstallation`
+<h3>Auto Uninstallation</h3>
 
 <ol>
 	<li>Close Maya (in case it's opened).</li>
@@ -95,7 +95,7 @@ In case you need/want to manually install the scripts. It's also a pretty straig
 	<li>Open Autodesk Maya.</li>
 </ol>
 
-`Manual Uninstallation`
+<h3>Manual Uninstallation</h3>
 
 <ol>
 	<li>Close Maya (in case it's opened).</li>
