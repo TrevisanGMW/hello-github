@@ -47,26 +47,30 @@ Hopefully these scripts are helpful to you as they are to me.
 * `python-scripts`: contains scripts written in Python
 
 ## Installation
-`Auto Installation`
+`Auto Installation`:
+
 This script collection comes with an auto installer (setup.bat) you can simply download it, run the setup and reopen Maya.
 Here is how you do it in more details:
-1. Download the latest release (or clone this repository).
-2. Un-zip (Decompress) the file you downloaded. (the setup won't work if it's still compressed)
-3. Open "setup.bat". (It will show you the options - "Install, Uninstall and About")
-4. Type "1" for installing and press enter.
-5. Restart Autodesk Maya.
+1. Close Maya (in case it's opened).
+2. Download the latest release (or clone this repository).
+3. Un-zip (Decompress) the file you downloaded. (the setup won't work if it's still compressed)
+4. Open "setup.bat". (It will show you the options - "Install, Uninstall and About")
+5. Type "1" for installing and press enter.
+6. Restart Autodesk Maya.
 
 If you want, you can now delete the downloaded/extracted files (as they have already been installed)
 
-`Manual Installation`
+`Manual Installation`:
+
 In case you need/want to manually install the scripts. It's also a pretty straightforward process.
-1. Close Maya
+1. Close Maya (in case it's opened).
 2. Un-zip (Decompress) the file you downloaded.
 3. Move all the contents from the folders "mel-scripts" and "python-scripts" to your scripts folder (usually located under the path below):
-C:\Users\USERNAME\Documents\maya\VERSION\scripts\
-4. In case you don't want to replace an already existing "userSetup.mel" script (inside your scripts folder), you can easily merge them by opening the existing one and adding the line: 
+<b>C:\Users\USERNAME\Documents\maya\VERSION\scripts\</b>
+4. In case you don't want to replace an already existing <b>"userSetup.mel"</b> script (inside your scripts folder), you can easily merge them by opening the existing one and adding the line: <b>"source "gt_tools_menu.mel";"</b>
+(Without quotation marks)
 
-source "gt_tools_menu.mel";
+
 
 (This command adds the menu when Maya opens)
 5. Restart Autodesk Maya. 
