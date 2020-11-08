@@ -114,6 +114,8 @@ In case you need/want to manually install the scripts. It's also a pretty straig
 </ul>
 
 <h1> Contributors </h1>
+If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are warmly welcome. Contributions of any kind welcome!
+
 <a href="https://github.com/TrevisanGMW/gt-tools/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=TrevisanGMW/gt-tools" />
 </a>
