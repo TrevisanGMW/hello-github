@@ -48,9 +48,7 @@ Hopefully these scripts are helpful to you as they are to me.
 
 ## Installation
 
-TL;DR
-
-Download files, then open "setup.bat".
+<b>TL;DR :</b> Download files, then open "setup.bat".
 
 `Auto Installation`
 
@@ -106,6 +104,11 @@ In case you need/want to manually install the scripts. It's also a pretty straig
 	<li>Open Autodesk Maya. </li>
 </ol>
 
+## Frequently Asked Questions
+<ul>
+	<li>How do I update GT Tools to a new version? A: Simply install it again, it will overwrite previous files.</li>
+	<li>What do I do if I have multiple "userSetup.mel" files? One inside "maya/####/scripts" and another one inside "maya/scripts" A: The "userSetup.mel" file gets executed when you open Maya, but Maya supports only one file. In case you have two files it will give priority to the file located inside "maya/####/scripts", so manage your initialization commands there.</li>
+</ul>
 ## Licensing
 
 The MIT License 2020 - Guilherme Trevisan
