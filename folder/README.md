@@ -21,11 +21,13 @@
 <a href="https://github.com/TrevisanGMW/gt-tools/blob/master/LICENSE">
 <img alt="GitHub license" src="https://img.shields.io/github/license/TrevisanGMW/gt-tools.svg?style=flat-square" ></a>
 
+<a href="https://www.paypal.me/TrevisanGMW"> 
+<img src="https://img.shields.io/badge/$-donate-blue.svg?maxAge=2592000&amp;style=flat-square">
+
 <a href="https://www.linkedin.com/in/trevisangmw/">
 <img alt="GitHub stars" src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555" ></a>
 
- <a href="https://www.paypal.me/TrevisanGMW"> 
-    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat-square">
+
 </p>
 
 
