@@ -41,18 +41,18 @@ For help on how to use these scripts, click on the “Help” button at the top 
 All of these items are supplied as is. You alone are solely responsible for any issues. Use at your own risk. 
 Hopefully these scripts are helpful to you as they are to me.
 
-<p style="text-align:right"><b>Tested using Autodeks Maya 2020 (Windows 10)</b></p>
+<p><b>Tested using Autodeks Maya 2020 (Windows 10)</b></p>
 
 
 <h1> Organization </h1>
-* `mel-scripts`: contains scripts written in MEL
-* `python-scripts`: contains scripts written in Python
+<code>mel-scripts</code>: contains scripts written in MEL
+<code>python-scripts</code>: contains scripts written in Python
 
 <h1> Installation </h1>
 
 <b>TL;DR :</b> Download files, then open "setup.bat".
 
-<h2>Auto Installation</h2>
+<h3>Auto Installation</h3>
 
 This script collection comes with an auto installer (setup.bat) you can simply download it, run the setup and reopen Maya.
 Here is how you do it in more details:
