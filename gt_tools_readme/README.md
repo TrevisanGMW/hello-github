@@ -118,9 +118,11 @@ If you'd like to contribute, please fork the repository and make changes as you'
 <p></p>
 <a href="https://github.com/TrevisanGMW/gt-tools/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=TrevisanGMW/gt-tools" />
-  
-  Don't know how to code but want to contribute? You could [__Buy me a coffee! :coffee:__](https://www.buymeacoffee.com/TrevisanGMW)
+ 
 </a>
+
+  Don't know how to code but want to contribute? You could [__buy me a coffee! :coffee:__](https://www.buymeacoffee.com/TrevisanGMW)
+
 
 <h1> Licensing </h1>
 The MIT License 2020 - Guilherme Trevisan
