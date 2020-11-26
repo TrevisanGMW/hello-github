@@ -56,7 +56,7 @@
 ### Scripts
 | Script Name | Description | Menu Path |
 | --- | --- | --- |
-| gt_check_for_updates | Compares your current GT Tools version with the latest release. (Also shows the latest changelog)  | GT Tools Menu -> Help -> Check For Updates  |
+| gt_check_for_updates | Compares your current GT Tools version with the latest release. (Also shows the changelog for the three latest versions)  | GT Tools Menu -> Help -> Check For Updates  |
 | Out Node | CTRL + SHIFT + O  | Network  |
 | Color Items | CTRL + ALT + C  | Network  |
 | Create Render Node | CTRL + SHIFT + R  | Network  |
