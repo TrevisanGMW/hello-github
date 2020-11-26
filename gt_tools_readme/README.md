@@ -43,17 +43,17 @@
   <tr>
     <td>gt_check_for_updates</td>
     <td width="50%">Compares your current GT Tools version with the latest release. (Also shows the changelog for the three latest versions)</td>
-    <td>GT Tools Menu > Help <br>> <br>Check For Updates</br> </td>
+    <td>GT Tools Menu > Help ><br><b>Check For Updates</b> </td>
   </tr>
   <tr>
     <td>gt_color_manager</td>
     <td width="50%">Manages the outliner and wireframe color of many objects at the same time.</td>
-    <td>GT Tools Menu > Tools <br>> <br>Color Manager</br> </td>
+    <td>GT Tools Menu > Tools ><br><b>Color Manager</b> </td>
   </tr>
   <tr>
     <td>gt_connect_attributes</td>
     <td width="50%">Connects many attributes at the same time. It also creates in-between nodes, such as conditions, multiplyDivide, and plusMinusAverage.</td>
-    <td>GT Tools Menu > Rigging <br>> <br>Connect Attributes</br> </td>
+    <td>GT Tools Menu > Rigging ><br><b>Connect Attributes</b> </td>
   </tr>
 </table>
 
