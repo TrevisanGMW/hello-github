@@ -33,8 +33,8 @@
 
 <h1> Description </h1>
 
-### Keyboard ShortCut Assignments (Example)
-| Name | Shortcut | Context |
+### Scripts
+| Script Name | Description | Menu Path |
 | --- | --- | --- |
 | gt_check_for_updates | Compares your current GT Tools version with the latest release. (Also shows the latest changelog)  | GT Tools > Help > Check For Updates  |
 | Out Node | CTRL + SHIFT + O  | Network  |
