@@ -43,7 +43,7 @@
   <tr>
     <td>gt_check_for_updates</td>
     <td>Compares your current GT Tools version with the latest release. (Also shows the latest changelog)</td>
-    <td>GT Tools Menu -> Help -> <p>Check For Updates</p> </td>
+    <td>GT Tools Menu -> Help <br>-> Check For Updates </td>
   </tr>
   <tr>
     <td>Eve</td>
