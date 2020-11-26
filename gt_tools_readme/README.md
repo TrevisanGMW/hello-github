@@ -41,9 +41,9 @@
     <th>Age</th>
   </tr>
   <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>50</td>
+    <td>gt_check_for_updates</td>
+    <td>Compares your current GT Tools version with the latest release. (Also shows the latest changelog)</td>
+    <td>GT Tools Menu -> Help -> Check For Updates </td>
   </tr>
   <tr>
     <td>Eve</td>
