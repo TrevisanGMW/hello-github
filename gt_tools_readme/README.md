@@ -32,14 +32,19 @@
 
 
 <h1> Description </h1>
-This is my collection of scripts for Autodesk Maya – These scripts were created with the aim of automating, enhancing or simply filling the missing details of what I find lacking in Maya.
-
-After installing the script collection, you’ll find a pull-down menu that provides easy access to a variety of tools. This menu contains sub-menus that have been organized to contain related tools, for example: modeling, rigging, utilities, etc…
-
-For help on how to use these scripts, click on the “Help” button at the top right of their window (within Maya) or check their documentation at the top of the script file (just open the “.py” or “.mel” file using any text editor, such as notepad)
-
-All of these items are supplied as is. You alone are solely responsible for any issues. Use at your own risk. 
-Hopefully these scripts are helpful to you as they are to me.
+### Keyboard ShortCut Assignments (Example)
+| Name | Shortcut | Context |
+| --- | --- | --- |
+| script_name.py | Description  | More Description?  |
+| script_name.py | Description  | More Description?  |
+| script_name.py | Description  | More Description?  |
+| Create Render Node | CTRL + SHIFT + R  | Network  |
+| Append to CTRL | CTRL + SHIFT + C  | Network  |
+| Merge Selected | CTRL + M  | Network  |
+| Switch Selected | CTRL + SHIFT + H  | Network  |
+| Switch Update Mode | CTRL + SHIFT + SPACE  | Global  |
+| Vex Importer | CTRL + ALT + S  | Network |
+| Set Black Viewport Schema | CTRL + ALT + B | Global |
 
 <p><b>Tested using Autodeks Maya 2020 (Windows 10)</b></p>
 
