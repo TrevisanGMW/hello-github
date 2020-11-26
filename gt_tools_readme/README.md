@@ -36,30 +36,30 @@
 
 <table style="width:100%">
   <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>Age</th>
+    <th>Script Name</th>
+    <th>Description</th>
+    <th>Menu Path</th>
   </tr>
   <tr>
     <td>gt_check_for_updates</td>
-    <td width="50%">Compares your current GT Tools version with the latest release. (Also shows the changelog for the three latest versions)</td>
+    <td width="50%">An updater. It compares your current GT Tools version with the latest release. It also shows the changelog for the three latest versions.</td>
     <td>GT Tools Menu > Help ><br><b>Check For Updates</b> </td>
   </tr>
   <tr>
     <td>gt_color_manager</td>
-    <td width="50%">Manages the outliner and wireframe color of many objects at the same time.</td>
+    <td width="50%">It manages the outliner and wireframe color of many objects at the same time.</td>
     <td>GT Tools Menu > Tools ><br><b>Color Manager</b> </td>
   </tr>
   <tr>
     <td>gt_connect_attributes</td>
-    <td width="50%">Connects many attributes at the same time. It also creates in-between nodes, such as conditions, multiplyDivide, and plusMinusAverage.</td>
+    <td width="50%">Connects many attributes at the same time. It also creates in-between nodes, such as condition, multiplyDivide, and plusMinusAverage.</td>
     <td>GT Tools Menu > Rigging ><br><b>Connect Attributes</b> </td>
   </tr>
 </table>
 
 
 ### Scripts
-| Script Name | Description | Menu Path |
+| Script Name  | Description | Menu Path |
 | --- | --- | --- |
 | gt_check_for_updates | Compares your current GT Tools version with the latest release. (Also shows the changelog for the three latest versions)  | GT Tools Menu -> Help -> Check For Updates  |
 | Out Node | CTRL + SHIFT + O  | Network  |
