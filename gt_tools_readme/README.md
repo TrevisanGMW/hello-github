@@ -36,7 +36,7 @@
 ### Keyboard ShortCut Assignments (Example)
 | Name | Shortcut | Context |
 | --- | --- | --- |
-| gt_check_for_updates | his script compares your current GT Tools version with the latest release  | GT Tools > Help > Check For Updates  |
+| gt_check_for_updates | Compares your current GT Tools version with the latest release. (Also shows the latest changelog)  | GT Tools > Help > Check For Updates  |
 | Out Node | CTRL + SHIFT + O  | Network  |
 | Color Items | CTRL + ALT + C  | Network  |
 | Create Render Node | CTRL + SHIFT + R  | Network  |
