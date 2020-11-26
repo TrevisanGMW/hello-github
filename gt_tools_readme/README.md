@@ -36,7 +36,7 @@
 ### Keyboard ShortCut Assignments (Example)
 | Name | Shortcut | Context |
 | --- | --- | --- |
-| Paste Object Merge | CTRL + SHIFT + C  | Network  |
+| Test | Test2 | AAA  |
 | Out Node | CTRL + SHIFT + O  | Network  |
 | Color Items | CTRL + ALT + C  | Network  |
 | Create Render Node | CTRL + SHIFT + R  | Network  |
