@@ -32,12 +32,13 @@
 
 
 <h1> Description </h1>
+
 ### Keyboard ShortCut Assignments (Example)
 | Name | Shortcut | Context |
 | --- | --- | --- |
-| script_name.py | Description  | More Description  |
-| script_name.py | Description  | More Description  |
-| script_name.py | Description  | More Description  |
+| Paste Object Merge | CTRL + SHIFT + C  | Network  |
+| Out Node | CTRL + SHIFT + O  | Network  |
+| Color Items | CTRL + ALT + C  | Network  |
 | Create Render Node | CTRL + SHIFT + R  | Network  |
 | Append to CTRL | CTRL + SHIFT + C  | Network  |
 | Merge Selected | CTRL + M  | Network  |
