@@ -55,7 +55,95 @@
     <td width="50%">Connects many attributes at the same time. It also creates in-between nodes, such as condition, multiplyDivide, and plusMinusAverage.</td>
     <td>GT Tools Menu > Rigging ><br><b>Connect Attributes</b> </td>
   </tr>
+  <tr>
+    <td>gt_create_auto_fk</td>
+    <td width="50%">Connects many attributes at the same time. It also creates in-between nodes, such as condition, multiplyDivide, and plusMinusAverage.</td>
+    <td>GT Tools Menu > Rigging ><br><b>Connect Attributes</b> </td>
+  </tr>
+  <tr>
+    <td>gt_create_ik_leg</td>
+    <td width="50%">Connects many attributes at the same time. It also creates in-between nodes, such as condition, multiplyDivide, and plusMinusAverage.</td>
+    <td>GT Tools Menu > Rigging ><br><b>Connect Attributes</b> </td>
+  </tr>
+  <tr>
+    <td>gt_create_sphere_types</td>
+    <td width="50%">Connects many attributes at the same time. It also creates in-between nodes, such as condition, multiplyDivide, and plusMinusAverage.</td>
+    <td>GT Tools Menu > Rigging ><br><b>Connect Attributes</b> </td>
+  </tr>
+  <tr>
+    <td>gt_generate_icons</td>
+    <td width="50%">Connects many attributes at the same time. It also creates in-between nodes, such as condition, multiplyDivide, and plusMinusAverage.</td>
+    <td>GT Tools Menu > Rigging ><br><b>Connect Attributes</b> </td>
+  </tr>
+  <tr>
+    <td>gt_generate_inbetween</td>
+    <td width="50%">Connects many attributes at the same time. It also creates in-between nodes, such as condition, multiplyDivide, and plusMinusAverage.</td>
+    <td>GT Tools Menu > Rigging ><br><b>Connect Attributes</b> </td>
+  </tr>
+  <tr>
+    <td>gt_generate_python_curve</td>
+    <td width="50%">Connects many attributes at the same time. It also creates in-between nodes, such as condition, multiplyDivide, and plusMinusAverage.</td>
+    <td>GT Tools Menu > Rigging ><br><b>Connect Attributes</b> </td>
+  </tr>
+  <tr>
+    <td>gt_generate_text_curve</td>
+    <td width="50%">Connects many attributes at the same time. It also creates in-between nodes, such as condition, multiplyDivide, and plusMinusAverage.</td>
+    <td>GT Tools Menu > Rigging ><br><b>Connect Attributes</b> </td>
+  </tr>
+  <tr>
+    <td>gt_make_stretchy_leg</td>
+    <td width="50%">Connects many attributes at the same time. It also creates in-between nodes, such as condition, multiplyDivide, and plusMinusAverage.</td>
+    <td>GT Tools Menu > Rigging ><br><b>Connect Attributes</b> </td>
+  </tr>
+  <tr>
+    <td>gt_maya_to_discord</td>
+    <td width="50%">Connects many attributes at the same time. It also creates in-between nodes, such as condition, multiplyDivide, and plusMinusAverage.</td>
+    <td>GT Tools Menu > Rigging ><br><b>Connect Attributes</b> </td>
+  </tr>
+  <tr>
+    <td>gt_mirror_cluster_tool</td>
+    <td width="50%">Connects many attributes at the same time. It also creates in-between nodes, such as condition, multiplyDivide, and plusMinusAverage.</td>
+    <td>GT Tools Menu > Rigging ><br><b>Connect Attributes</b> </td>
+  </tr>
+  <tr>
+    <td>gt_renamer</td>
+    <td width="50%">Connects many attributes at the same time. It also creates in-between nodes, such as condition, multiplyDivide, and plusMinusAverage.</td>
+    <td>GT Tools Menu > Rigging ><br><b>Connect Attributes</b> </td>
+  </tr>
+  <tr>
+    <td>gt_render_checklist</td>
+    <td width="50%">Connects many attributes at the same time. It also creates in-between nodes, such as condition, multiplyDivide, and plusMinusAverage.</td>
+    <td>GT Tools Menu > Rigging ><br><b>Connect Attributes</b> </td>
+  </tr>
+  <tr>
+    <td>gt_replace_reference_paths</td>
+    <td width="50%">Connects many attributes at the same time. It also creates in-between nodes, such as condition, multiplyDivide, and plusMinusAverage.</td>
+    <td>GT Tools Menu > Rigging ><br><b>Connect Attributes</b> </td>
+  </tr>
+  <tr>
+    <td>gt_selection_manager</td>
+    <td width="50%">Connects many attributes at the same time. It also creates in-between nodes, such as condition, multiplyDivide, and plusMinusAverage.</td>
+    <td>GT Tools Menu > Rigging ><br><b>Connect Attributes</b> </td>
+  </tr>
+  <tr>
+    <td>gt_startup_booster</td>
+    <td width="50%">Connects many attributes at the same time. It also creates in-between nodes, such as condition, multiplyDivide, and plusMinusAverage.</td>
+    <td>GT Tools Menu > Rigging ><br><b>Connect Attributes</b> </td>
+  </tr>
+  <tr>
+    <td>gt_transfer_transforms</td>
+    <td width="50%">Connects many attributes at the same time. It also creates in-between nodes, such as condition, multiplyDivide, and plusMinusAverage.</td>
+    <td>GT Tools Menu > Rigging ><br><b>Connect Attributes</b> </td>
+  </tr>
+  <tr>
+    <td>gt_utilities</td>
+    <td width="50%">Connects many attributes at the same time. It also creates in-between nodes, such as condition, multiplyDivide, and plusMinusAverage.</td>
+    <td>GT Tools Menu > Rigging ><br><b>Connect Attributes</b> </td>
+  </tr>
 </table>
+
+ 
+ 
 
 
 ### Scripts
