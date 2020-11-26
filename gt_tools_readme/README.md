@@ -35,9 +35,9 @@
 ### Keyboard ShortCut Assignments (Example)
 | Name | Shortcut | Context |
 | --- | --- | --- |
-| script_name.py | Description  | More Description?  |
-| script_name.py | Description  | More Description?  |
-| script_name.py | Description  | More Description?  |
+| script_name.py | Description  | More Description  |
+| script_name.py | Description  | More Description  |
+| script_name.py | Description  | More Description  |
 | Create Render Node | CTRL + SHIFT + R  | Network  |
 | Append to CTRL | CTRL + SHIFT + C  | Network  |
 | Merge Selected | CTRL + M  | Network  |
