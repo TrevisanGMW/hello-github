@@ -68,7 +68,7 @@ The icon on the left describes the validity of the path. If the file or director
 <p><b>Refresh: </b>Re-populates the list while re-checking for path validity.</p>
 
 <p><b>Search Path: </b>A directory path used when looking for missing files.</p>
-<br>
+<br><br>
 </div>
 
 <!-- GT Color Manager -->
