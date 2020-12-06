@@ -76,10 +76,7 @@ The icon on the left describes the validity of the path. If the file or director
 <h1> GT Color Manager </h1>
 <img src="./media/gt_color_manager.jpg" align="right"
      alt="GT Path Manager GUI">
-<img src="./media/gt_color_manager_sample_b.gif" align="right"
-	 alt="GT Path Manager Sample B" style="float: right;">
-<img src="./media/gt_color_manager_sample_a.gif" align="right"
-	 alt="GT Path Manager Sample A">
+
 
 
 <p>Script for quickly coloring elements in Maya.<br>Feedback is given through inView messages at the left bottom corner.</p>
@@ -87,6 +84,11 @@ The icon on the left describes the validity of the path. If the file or director
 <p><b>Modes: </b><br>- Drawing Override: Utilize "Object > Object Display > Drawing Overrides" to set color.<br>- Wireframe Color:\n  Utilize "Display > Wireframe Color..." to set color.</p>
 
 <p><b>Target: </b><br>- Transform:\n  Colorize actual selection. Usually a "transform"<br>- Wireframe Color:\n  Colorize the shape node inside the transform</p>
+
+<img src="./media/gt_color_manager_sample_b.gif" align="right"
+	 alt="GT Path Manager Sample B" style="float: right;">
+<img src="./media/gt_color_manager_sample_a.gif" align="right"
+	 alt="GT Path Manager Sample A">
 
 <p><b>Current Color: </b><br>The color used in the operation. Click on the color to open Maya's color picker.</p>
 
