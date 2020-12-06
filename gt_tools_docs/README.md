@@ -9,15 +9,15 @@
 <div>
 <h1> Table of Contents </h1>
 <img src="../gt_logo.png" align="right"
-     alt="GT Tools Logo" width="200">
-<p><b>Tools:</></p>
+     alt="GT Tools Logo" width="400">
+<h3><b>Tools:</></h3>
 <ul>
-  <li>GT Renamer</li>
-  <li>GT Selection Manager</li>
-  <li>GT Path Manager</li>
-  <li>GT Color Manager</li>
-  <li>GT Transfer Transforms</li>
-  <li>GT Render Checklist</li>
+  <li><a href="#-gt-renamer-">GT Renamer</a></li>
+  <li><a href="#-gt-selection-manager-">GT Selection Manager</a></li>
+  <li><a href="#-gt-path-manager-">GT Path Manager</a></li>
+  <li><a href="#-gt-color-manager-">GT Color Manager</a></li>
+  <li><a href="#-gt-transfer-transforms-">GT Transfer Transforms</a></li>
+  <li><a href="#-gt-render-checklist-">GT Render Checklist</a></li>
 </ul>
 
 </div>
