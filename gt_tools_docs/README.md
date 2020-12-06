@@ -99,6 +99,7 @@ The icon on the left describes the validity of the path. If the file or director
 
 <p><b>Set Color For: </b><br>- Outliner:  Control the outliner color
 <br>- Wireframe Color:  Control the wireframe color seen in the viewport</p>
+<br><br><br><br><br>
 
 </div>
 
