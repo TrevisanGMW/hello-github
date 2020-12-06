@@ -2,6 +2,7 @@
 
 <p></p>
 <!-- GT Renamer -->
+<div style="height:619;" >
 <h1> GT Renamer </h1>
 <img src="./media/gt_renamer.jpg" align="right"
      alt="GT Renamer GUI">
@@ -19,9 +20,11 @@
 <p><b>Prefix and Suffix: </b><br>Prefix: adds a string in front of a name.<br>Suffix: adds a string at the end of a name.<br> - Auto: Uses the provided strings to automatically name objects according to their type or position.<br>1st example: a mesh would automatically receive "_geo"<br>2nd example: an object in positive side of X, would automatically receive "left_: .<br> - Input: uses the provided text as a prefix or suffix.</p>
 
 <p><b>Search and Replace: </b>Uses the well-known method of search and replace to rename objects.</p>
+</div>
 
 <p></p>
 <!-- GT Selection Manager-->
+<div>
 <h1> GT Selection Manager </h1>
 <img src="./media/gt_selection_manager.jpg" align="right"
      alt="GT Selection Manager GUI">
@@ -40,9 +43,11 @@
 <p><b>You can save your selection in two ways: </b><br>As a set: creates a set containing your selection.<br> As text: creates a txt file containing  the code necessary to recreate selection.</p>
 
 <p><b>Create New Selection: </b>Uses all objects as initial selection<br><b>Update Current Selection: </b>Considers only selected objects</p>
+</div>
 
 <p></p>
 <!-- GT Path Manager -->
+<div>
 <h1> GT Path Manager </h1>
 <img src="./media/gt_path_manager.gif" align="right"
      alt="GT Path Manager GUI">
@@ -60,18 +65,19 @@ The icon on the left describes the validity of the path. If the file or director
 <p><b>Refresh: </b>Re-populates the list while re-checking for path validity.</p>
 
 <p><b>Search Path: </b>A directory path used when looking for missing files.</p>
+</div>
 
 <p></p>
 <!-- GT Color Manager -->
+<div>
 <h1> GT Color Manager </h1>
 <img src="./media/gt_color_manager.jpg" align="right"
      alt="GT Path Manager GUI">
-<div align="right">
-	<img src="./media/gt_color_manager_sample_b.gif" align="right"
-		 alt="GT Path Manager Sample B">
-	<img src="./media/gt_color_manager_sample_a.gif" align="right"
-		 alt="GT Path Manager Sample A">
-</div>
+<img src="./media/gt_color_manager_sample_b.gif" align="right"
+	 alt="GT Path Manager Sample B">
+<img src="./media/gt_color_manager_sample_a.gif" align="right"
+	 alt="GT Path Manager Sample A">
+
 
 <p>Script for quickly coloring elements in Maya.</p>
 
@@ -85,6 +91,6 @@ The icon on the left describes the validity of the path. If the file or director
 
 <p><b>Set Color For: </b><br>- Outliner:  Control the outliner color
 <br>- Wireframe Color:  Control the wireframe color seen in the viewport</p>
-
+</div>
 
 
