@@ -25,7 +25,7 @@
 <img src="./media/gt_selection_manager.jpg" align="right"
      alt="GT Selection Manager GUI">
 
-<p><b>This script allows you to update selections to contain (or not) filtered elements. You can also save and load previous selections.</p>	 
+<p>This script allows you to update selections to contain (or not) filtered elements. You can also save and load previous selections.</p>	 
 <p><b>Element Name: </b>This option allows you to check if the string used for the object name contains or doesn't contain the, the provided strings (parameters).</p>
 <p><b>Element Type:  </b>This filter will check the type of the element to determine if it should be part of the selection or not.</p>
 <p><b>Element Type > Behavior (Dropdown Menu): </b>Since most elements are transforms, you can use the dropdown menu "Behavior" to determine how to filter the shape element (usually hidden inside the transform). <br>(You can consider transform, shape, both or ignore it)</p>
