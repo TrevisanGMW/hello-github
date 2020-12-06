@@ -9,12 +9,12 @@
 <div>
 <h1> Table of Contents </h1>
 <a href="https://github.com/TrevisanGMW/gt-tools"><img src="../gt_logo.png" align="right" alt="GT Tools Logo" width="400"></a>
-<h3><b>General:</></h3>
+<h3><b>General:</b></h3>
 <ul>
-  <li><a href="#-gt-renamer-">GT Menu</a></li>
-  <li><a href="#-gt-renamer-">GT Check for Updates</a></li>
+  <li><a href="#-gt-menu-">GT Menu</a></li>
+  <li><a href="#-gt-check-for-updates-">GT Check for Updates</a></li>
 </ul>
-<h3><b>Tools:</></h3>
+<h3><b>Tools:</b></h3>
 <ul>
   <li><a href="#-gt-renamer-">GT Renamer</a></li>
   <li><a href="#-gt-selection-manager-">GT Selection Manager</a></li>
@@ -38,7 +38,7 @@
 <p>The script "gt_tools_menu.mel" adds a new dropdown menu to the main Maya window. It provides the user with easy access to the other scripts based on categories. 
 <br>This menu contains sub-menus that have been organized to contain related tools. For example: modeling, rigging, utilities, etc...</p>
 
-<p><b>How does Maya know to run the script and create the menu?: When you install the script package, it adds a line of code to the "userSetup.mel" file. This file gets executed every time Maya opens.</b><br></p>
+<p><b>How does Maya know to run the script and create the menu?:</b> When you install the script package, it adds a line of code to the "userSetup.mel" file. This file gets executed every time Maya opens.</p>
 
 <p><b>Help > About: </b><br>This option opens a window showing basic information about GT Tools.</p>
 
