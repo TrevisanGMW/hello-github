@@ -1,4 +1,4 @@
-<img src="./gt_path_manager.gif" align="right"
+<img src="./gt_path_manager.gif" align="right" position: absolute; right: 0%;
      alt="GT Path Manager Sample Image">
 	 
 	 
