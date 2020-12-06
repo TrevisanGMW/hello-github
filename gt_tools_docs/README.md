@@ -76,7 +76,10 @@ The icon on the left describes the validity of the path. If the file or director
 <h1> GT Color Manager </h1>
 <img src="./media/gt_color_manager.jpg" align="right"
      alt="GT Path Manager GUI">
-
+<img src="./media/gt_color_manager_sample_b.gif" align="right"
+	 alt="GT Path Manager Sample B" style="float: right;">
+<img src="./media/gt_color_manager_sample_a.gif" align="right"
+	 alt="GT Path Manager Sample A">
 
 
 <p>Script for quickly coloring elements in Maya.<br>Feedback is given through inView messages at the left bottom corner.</p>
@@ -92,10 +95,7 @@ The icon on the left describes the validity of the path. If the file or director
 <p><b>Set Color For: </b><br>- Outliner:  Control the outliner color</p>
 <br>- Wireframe Color:  Control the wireframe color seen in the viewport</p>
 
-<img src="./media/gt_color_manager_sample_b.gif" align="right"
-	 alt="GT Path Manager Sample B" style="float: right;">
-<img src="./media/gt_color_manager_sample_a.gif" align="right"
-	 alt="GT Path Manager Sample A">
+
 
 
 </div>
