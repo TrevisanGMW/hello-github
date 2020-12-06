@@ -88,17 +88,16 @@ The icon on the left describes the validity of the path. If the file or director
 
 <p><b>Current Color: </b><br>The color used in the operation. Click on the color to open Maya's color picker.</p>
 
-<p><b>Color Presets: </b><br>A list of common colors. When clicked it sets the color.</p>
-
 <img src="./media/gt_color_manager_sample_a.gif" align="right"
 	 alt="GT Path Manager Sample A">
 <img src="./media/gt_color_manager_sample_b.gif" align="right"
 	 alt="GT Path Manager Sample B">
 
+<p><b>Color Presets: </b><br>A list of common colors. When clicked it sets the color.</p>
+
+
 <p><b>Set Color For: </b><br>- Outliner:  Control the outliner color</p>
 <br>- Wireframe Color:  Control the wireframe color seen in the viewport</p>
-
-
 
 
 </div>
