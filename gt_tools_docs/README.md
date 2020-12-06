@@ -36,7 +36,7 @@
 <ul>
   <li><a href="#-gt-connect-attributes-">GT Connect Attributes</a></li>
   <li><a href="#-gt-mirror-cluster-tool-">GT Mirror Cluster Tool</a></li>
-  <li><a href="#-table-of-contents-">GT Generate In-Between</a></li>
+  <li><a href="#-gt-generate-in-between-">GT Generate In-Between</a></li>
   <li><a href="#-table-of-contents-">GT Create Auto FK</a></li>
   <li><a href="#-table-of-contents-">GT Create IK Leg</a></li>
   <li><a href="#-table-of-contents-">GT Make Stretchy Leg</a></li>
@@ -473,13 +473,49 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <br>This pull-down menu determines what type object will be created.</p>
 
 <p><b>Parent Type: </b>
-<br>This pull-down menu determines where the pivot point of the generated element will be extracted from..</p>
+<br>This pull-down menu determines where the pivot point of the generated element will be extracted from.</p>
 
 <p><b>Outliner Color: </b>
 <br>Determines the outliner color of the generated element.</p>
 
 <p><b>New Transform Suffix: </b>
 <br>Determines the suffix to be added to generated transforms.</p>
+
+<br>
+
+</div>
+
+<!-- GT Create Auto FK -->
+<div>
+<h1> GT Create Auto FK </h1>
+
+<img src="./media/gt_create_auto_fk.jpg" align="right"
+     alt="GT GT Create Auto FK GUI"><br>
+
+<p>This script generates FK controls for joints while storing their transforms in groups.
+<br>Just select the desired joints and run the script.</p>
+
+<p><b>Colorize Controls: </b>
+<br>Automatically colorize controls according to their names (prefix). It ignores uppercase/lowercase.
+<br>No Prefix = Yellow
+<br>"l_" or "left_" = Blue
+<br>"r_" or "right_" = Red</p>
+
+<p><b>Select Hierarchy:  </b>
+<br>Automatically selects the rest of the hierarchy of the selected object, thus allowing you to only select the root joint before creating controls.</p>
+
+<p><b>(Advanced) Custom Curve: </b>
+<br>You can change the curve used for the creation of the controls. Use the script "GT Generate Python Curve" to generate the code you need to enter here.</p>
+
+<p><b>Joint, Control, and Control Group Tag: </b>
+<br>Used to determine the suffix of the elements.
+<br>Joint Tag is removed from the joint name for the control.
+<br>Control Tag is added to the generated control.
+<br>Control Group Tag is added to the control group.
+<br>(The control group is the transform carrying the transforms of the joint).</p>
+
+<p><b>Ignore Joints Containing These Strings:  </b>
+<br>The script will ignore joints containing these strings. To add multiple strings use commas - ",".</p>
 
 <br>
 
