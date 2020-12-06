@@ -79,9 +79,9 @@ The icon on the left describes the validity of the path. If the file or director
 
 <div align="right">
 <img src="./media/gt_color_manager.jpg" 
-     alt="GT Path Manager GUI">
+     alt="GT Path Manager GUI"><br>
 <img src="./media/gt_color_manager_sample_b.gif" 
-	 alt="GT Path Manager Sample B">
+	 alt="GT Path Manager Sample B"><br>
 <img src="./media/gt_color_manager_sample_a.gif" 
 	 alt="GT Path Manager Sample A">
 </div>
