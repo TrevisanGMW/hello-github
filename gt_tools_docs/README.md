@@ -48,7 +48,7 @@
 
 <p></p>
 <!-- GT Path Manager -->
-<div style="height:580;" >
+<div style="height:600;" >
 <h1> GT Path Manager </h1>
 <img src="./media/gt_path_manager.gif" align="right"
      alt="GT Path Manager GUI">
