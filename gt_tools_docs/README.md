@@ -2,6 +2,7 @@
 
 
 <body>
+
 <p></p>
 <!-- GT Renamer -->
 <div>
@@ -22,9 +23,9 @@
 <p><b>Prefix and Suffix: </b><br>Prefix: adds a string in front of a name.<br>Suffix: adds a string at the end of a name.<br> - Auto: Uses the provided strings to automatically name objects according to their type or position.<br>1st example: a mesh would automatically receive "_geo"<br>2nd example: an object in positive side of X, would automatically receive "left_: .<br> - Input: uses the provided text as a prefix or suffix.</p>
 
 <p><b>Search and Replace: </b>Uses the well-known method of search and replace to rename objects.</p>
+<br>
 </div>
 
-<p></p>
 <!-- GT Selection Manager-->
 <div>
 <h1> GT Selection Manager </h1>
@@ -45,9 +46,9 @@
 <p><b>You can save your selection in two ways: </b><br>As a set: creates a set containing your selection.<br> As text: creates a txt file containing  the code necessary to recreate selection.</p>
 
 <p><b>Create New Selection: </b>Uses all objects as initial selection<br><b>Update Current Selection: </b>Considers only selected objects</p>
+<br>
 </div>
 
-<p></p>
 <!-- GT Path Manager -->
 <div>
 <h1> GT Path Manager </h1>
@@ -70,7 +71,6 @@ The icon on the left describes the validity of the path. If the file or director
 <br>
 </div>
 
-<p></p>
 <!-- GT Color Manager -->
 <div>
 <h1> GT Color Manager </h1>
