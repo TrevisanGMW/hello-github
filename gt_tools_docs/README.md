@@ -77,14 +77,7 @@ The icon on the left describes the validity of the path. If the file or director
 
 
 
-<div align="right" style="word-wrap: break-word;">
-<img src="./media/gt_color_manager.jpg" 
-     alt="GT Path Manager GUI"><br>
-<img src="./media/gt_color_manager_sample_a.gif" 
-	 alt="GT Path Manager Sample A">
-<img src="./media/gt_color_manager_sample_b.gif" 
-	 alt="GT Path Manager Sample B">
-</div>
+
 
 <p>Script for quickly coloring elements in Maya.<br>Feedback is given through inView messages at the left bottom corner.</p>
 
@@ -101,7 +94,14 @@ The icon on the left describes the validity of the path. If the file or director
 <p><b>Set Color For: </b><br>- Outliner:  Control the outliner color</p>
 <br>- Wireframe Color:  Control the wireframe color seen in the viewport</p>
 
-
+<div align="right" style="word-wrap: break-word;">
+<img src="./media/gt_color_manager.jpg" 
+     alt="GT Path Manager GUI"><br>
+<img src="./media/gt_color_manager_sample_a.gif" 
+	 alt="GT Path Manager Sample A">
+<img src="./media/gt_color_manager_sample_b.gif" 
+	 alt="GT Path Manager Sample B">
+</div>
 
 
 </div>
