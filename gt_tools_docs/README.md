@@ -76,38 +76,27 @@ The icon on the left describes the validity of the path. If the file or director
 <h1> GT Color Manager </h1>
 
 
-<table style="width:100%">
-	<tr>
-		<th>
-			<p>Script for quickly coloring elements in Maya.<br>Feedback is given through inView messages at the left bottom corner.</p>
-
-			<p><b>Modes: </b><br>- Drawing Override: Utilize "Object > Object Display > Drawing Overrides" to set color.<br>- Wireframe Color:\n  Utilize "Display > Wireframe Color..." to set color.</p>
-
-			<p><b>Target: </b><br>- Transform:\n  Colorize actual selection. Usually a "transform"<br>- Wireframe Color:\n  Colorize the shape node inside the transform</p>
+<img src="./media/gt_color_manager.jpg" align="right"
+     alt="GT Path Manager GUI"><br>
 
 
+<p>Script for quickly coloring elements in Maya.<br>Feedback is given through inView messages at the left bottom corner.</p>
 
-			<p><b>Current Color: </b><br>The color used in the operation. Click on the color to open Maya's color picker.</p>
+<p><b>Modes: </b><br>- Drawing Override: Utilize "Object > Object Display > Drawing Overrides" to set color.<br>- Wireframe Color:\n  Utilize "Display > Wireframe Color..." to set color.</p>
 
-			<p><b>Color Presets: </b><br>A list of common colors. When clicked it sets the color.</p>
+<p><b>Target: </b><br>- Transform:\n  Colorize actual selection. Usually a "transform"<br>- Wireframe Color:\n  Colorize the shape node inside the transform</p>
 
-			<p><b>Set Color For: </b><br>- Outliner:  Control the outliner color</p>
-			<br>- Wireframe Color:  Control the wireframe color seen in the viewport</p>
-		</th>
-		<th>
-			<div align="right" style="word-wrap: break-word;">
-			<img src="./media/gt_color_manager.jpg" 
-				 alt="GT Path Manager GUI"><br>
-			<img src="./media/gt_color_manager_sample_a.gif" 
-				 alt="GT Path Manager Sample A">
-			<img src="./media/gt_color_manager_sample_b.gif" 
-				 alt="GT Path Manager Sample B">
-			</div>
-		</th>
-	</tr>
-</table>
+<p><b>Current Color: </b><br>The color used in the operation. Click on the color to open Maya's color picker.</p>
 
+<p><b>Color Presets: </b><br>A list of common colors. When clicked it sets the color.</p>
 
+<img src="./media/gt_color_manager_sample_a.gif" align="right"
+	 alt="GT Path Manager Sample A">
+<img src="./media/gt_color_manager_sample_b.gif" align="right"
+	 alt="GT Path Manager Sample B">
+
+<p><b>Set Color For: </b><br>- Outliner:  Control the outliner color</p>
+<br>- Wireframe Color:  Control the wireframe color seen in the viewport</p>
 
 
 
