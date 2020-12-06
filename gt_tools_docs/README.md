@@ -59,6 +59,27 @@ The icon on the left describes the validity of the path. If the file or director
 
 <p><b>Search Path: </b>A directory path used when looking for missing files.</p>
 
+<!-- GT Color Manager -->
+<h1> GT Color Manager </h1>
+<img src="./media/gt_color_manager_sample_a.gif" align="right"
+     alt="GT Path Manager Sample A">
+<img src="./media/gt_color_manager_sample_b.gif" align="right"
+     alt="GT Path Manager Sample B">
+<img src="./media/gt_color_manager.jpg" align="right"
+     alt="GT Path Manager GUI">
+
+<p>Script for quickly coloring elements in Maya.</p>
+
+<p><b>Modes: </b><br>- Drawing Override: Utilize "Object > Object Display > Drawing Overrides" to set color.<br>- Wireframe Color:\n  Utilize "Display > Wireframe Color..." to set color.</p>
+
+<p><b>Target: </b><br>- Transform:\n  Colorize actual selection. Usually a "transform"<br>- Wireframe Color:\n  Colorize the shape node inside the transform</p>
+
+<p><b>Current Color: </b><br>The color used in the operation. Click on the color to open Maya's color picker.</p>
+
+<p><b>Color Presets: </b><br>A list of common colors. When clicking it sets the color.</p>
+
+<p><b>Set Color For: </b><br>- Outliner:  Control the outliner color
+<br>- Wireframe Color:  Control the wireframe color seen in the viewpor</p>
 
 
 
