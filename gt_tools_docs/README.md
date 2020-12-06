@@ -1,5 +1,20 @@
 <!-- GT Tools Docs -->
 
+<style>
+	html, body {
+		height: 100%;
+	}
+    html {
+		display: table;
+		margin: auto;
+	}
+	
+	body {
+		display: table-cell;
+		vertical-align: middle;
+	}
+</style>
+
 <body>
 <p></p>
 <!-- GT Renamer -->
@@ -53,7 +68,7 @@
 <img src="./media/gt_path_manager.gif" align="right"
      alt="GT Path Manager GUI">
 	 
-<p>This script displays a list with the name, type and path of any common nodes found in Maya. You can select the node listed by clicking on it or change its name or path by double clicking the cell.
+<p>This script displays a list with the name, type and path of any common nodes found in Maya.<br>You can select the node listed by clicking on it or change its name or path by double clicking the cell.
 
 The icon on the left describes the validity of the path. If the file or directory is found in the system it shows a green confirm icon otherwise it shows a red icon.</p>
 
