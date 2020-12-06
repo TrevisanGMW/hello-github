@@ -8,8 +8,7 @@
 <!-- Table of Contents -->
 <div>
 <h1> Table of Contents </h1>
-<img src="../gt_logo.png" align="right"
-     alt="GT Tools Logo" width="400">
+<a href="https://github.com/TrevisanGMW/gt-tools"><img src="../gt_logo.png" align="right" alt="GT Tools Logo" width="400"></a>
 <h3><b>Tools:</></h3>
 <ul>
   <li><a href="#-gt-renamer-">GT Renamer</a></li>
@@ -19,7 +18,7 @@
   <li><a href="#-gt-transfer-transforms-">GT Transfer Transforms</a></li>
   <li><a href="#-gt-render-checklist-">GT Render Checklist</a></li>
 </ul>
-<br><br><br><br>
+<br><br><br>
 </div>
 
 
