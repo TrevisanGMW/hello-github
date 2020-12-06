@@ -3,6 +3,17 @@
 
 <body>
 
+
+<p></p>
+<!-- Table of Contents -->
+<div>
+<h1> Table of Contents </h1>
+<img src="../gt_logo.png" align="right"
+     alt="GT Tools Logo">
+
+
+</div>
+
 <p></p>
 <!-- GT Renamer -->
 <div>
@@ -221,9 +232,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 		<br>This function checks: Audio Nodes, Mash Audio Nodes, nCache Nodes, Maya Fluid Cache Nodes, Arnold Volumes/Standins/Lights, Redshift Proxy/Volume/Normal/Lights, Alembic/BIF/GPU Cache, Golaem Common and Cache Nodes.
 	</li>
 </ul>
-
-
-
+<br>
 </div>
 
 </body>
