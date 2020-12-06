@@ -1,24 +1,10 @@
 <!-- GT Tools Docs -->
 
-<style>
-	html, body {
-		height: 100%;
-	}
-    html {
-		display: table;
-		margin: auto;
-	}
-	
-	body {
-		display: table-cell;
-		vertical-align: middle;
-	}
-</style>
 
 <body>
 <p></p>
 <!-- GT Renamer -->
-<div style="height:620;" >
+<div>
 <h1> GT Renamer </h1>
 <img src="./media/gt_renamer.jpg" align="right"
      alt="GT Renamer GUI">
@@ -63,12 +49,12 @@
 
 <p></p>
 <!-- GT Path Manager -->
-<div style="height:600;" >
+<div>
 <h1> GT Path Manager </h1>
 <img src="./media/gt_path_manager.gif" align="right"
      alt="GT Path Manager GUI">
 	 
-<p>This script displays a list with the name, type and path of any common nodes found in Maya.<br>You can select the node listed by clicking on it or change its name or path by double clicking the cell.
+<p>This script displays a list with the name, type and path of any common nodes found in Maya.<br><br>You can select the node listed by clicking on it or change its name or path by double clicking the cell.
 
 The icon on the left describes the validity of the path. If the file or directory is found in the system it shows a green confirm icon otherwise it shows a red icon.</p>
 
@@ -81,6 +67,7 @@ The icon on the left describes the validity of the path. If the file or director
 <p><b>Refresh: </b>Re-populates the list while re-checking for path validity.</p>
 
 <p><b>Search Path: </b>A directory path used when looking for missing files.</p>
+<br>
 </div>
 
 <p></p>
