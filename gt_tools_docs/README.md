@@ -35,7 +35,7 @@
 <h3><b>Rigging:</b></h3>
 <ul>
   <li><a href="#-gt-connect-attributes-">GT Connect Attributes</a></li>
-  <li><a href="#-table-of-contents-">GT Mirror Cluster Tool</a></li>
+  <li><a href="#-gt-mirror-cluster-tool-">GT Mirror Cluster Tool</a></li>
   <li><a href="#-table-of-contents-">GT Generate In-Between</a></li>
   <li><a href="#-table-of-contents-">GT Create Auto FK</a></li>
   <li><a href="#-table-of-contents-">GT Create IK Leg</a></li>
@@ -442,11 +442,11 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <p>Script for mirroring clusters on mesh objects.</p>
 
 <p><b>Step 1: </b>
-<br>WLoad your mesh by selecting it in the viewport or in the outliner, then click on "Select Mesh".
+<br>Load your mesh by selecting it in the viewport or in the outliner,L<br> then click on "Select Mesh".
 <br>Requirements: Must be one single mesh transform.</p>
 
 <p><b>Step 2: </b>
-<br>Load your clusterHandle by selecting it in the viewport or in the outliner, then click on "Select Cluster".
+<br>Load your clusterHandle by selecting it in the viewport or in the outliner,<br> then click on "Select Cluster".
 <br>Requirements: Must be one single clusterHandle.</p>
 
 <p><b>Step 3: </b>
