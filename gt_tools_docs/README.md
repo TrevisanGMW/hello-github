@@ -79,7 +79,7 @@ The icon on the left describes the validity of the path. If the file or director
 
 
 
-<p>Script for quickly coloring elements in Maya.</p>
+<p>Script for quickly coloring elements in Maya.<br>Feedback is given through inView messages at the left bottom corner.</p>
 
 <p><b>Modes: </b><br>- Drawing Override: Utilize "Object > Object Display > Drawing Overrides" to set color.<br>- Wireframe Color:\n  Utilize "Display > Wireframe Color..." to set color.</p>
 
@@ -89,11 +89,11 @@ The icon on the left describes the validity of the path. If the file or director
 
 <p><b>Color Presets: </b><br>A list of common colors. When clicked it sets the color.</p>
 
-<p><b>Set Color For: </b><br>- Outliner:  Control the outliner color
+<p><b>Set Color For: </b><br>- Outliner:  Control the outliner color</p>
 <br>- Wireframe Color:  Control the wireframe color seen in the viewport</p>
 
 <img src="./media/gt_color_manager_sample_b.gif" align="right"
-	 alt="GT Path Manager Sample B">
+	 alt="GT Path Manager Sample B" style="float: right;">
 <img src="./media/gt_color_manager_sample_a.gif" align="right"
 	 alt="GT Path Manager Sample A">
 
