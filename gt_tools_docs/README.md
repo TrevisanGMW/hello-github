@@ -23,6 +23,33 @@
   <li><a href="#-gt-transfer-transforms-">GT Transfer Transforms</a></li>
   <li><a href="#-gt-render-checklist-">GT Render Checklist</a></li>
 </ul>
+<h3><b>Curves:</b></h3>
+<ul>
+  <li><a href="#-gt-generate-python-curve-">GT Generate Python Curve</a></li>
+  <li><a href="#-gt-generate-text-curve-">GT Generate Text Curve</a></li>
+</ul>
+<h3><b>Modeling:</b></h3>
+<ul>
+  <li><a href="#-gt-generate-python-curve-">GT Sphere Types</a></li>
+</ul>
+<h3><b>Rigging:</b></h3>
+<ul>
+  <li><a href="#-gt-generate-python-curve-">GT Connect Attributes</a></li>
+  <li><a href="#-gt-generate-python-curve-">GT Mirror Cluster Tool</a></li>
+  <li><a href="#-gt-generate-python-curve-">GT Generate In-Between</a></li>
+  <li><a href="#-gt-generate-python-curve-">GT Create Auto FK</a></li>
+  <li><a href="#-gt-generate-python-curve-">GT Create IK Leg</a></li>
+  <li><a href="#-gt-generate-python-curve-">GT Make Stretchy Leg</a></li>
+</ul>
+<h3><b>Utilities:</b></h3>
+<ul>
+  <li><a href="#-gt-generate-python-curve-">GT Utilities</a></li>
+</ul>
+<h3><b>Miscellaneous:</b></h3>
+<ul>
+  <li><a href="#-gt-generate-python-curve-">GT Startup Booster</a></li>
+  <li><a href="#-gt-generate-python-curve-">GT Maya to Discord</a></li>
+</ul>
 <br>
 </div>
 
@@ -345,9 +372,27 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <br>2. Type the word you want to create in the "Text:" text field.
 <br>3. Click on the "Generate" button.</p>
 
-<p>You can create multiple curves by separanting them with commas ",".</p>
+<p>You can create multiple curves at the same time by separanting them with commas ",".</p>
 
 <p><b>Current Font: </b><br>Click on the button on its right to change the font</p>
+
+<br>
+
+</div>
+
+<!-- GT Sphere Types -->
+<div>
+<h1> GT Sphere Types </h1>
+
+<img src="./media/gt_create_sphere_types.jpg" align="right"
+     alt="GT Sphere Types GUI"><br>
+
+<p>Quite simple script used as a reminder that the standard sphere is not the only sphere option.</p>
+
+<p><b>Standard Sphere: </b><br>Creates the standard Maya sphere. "Create > Polygon Primitives > Sphere"</p>
+<p><b>Standard Sphere: </b><br>Creates a sphere using a cube. "Create > Polygon Primitives > Cube" then "Mesh > Smooth (2x)"</p>
+<p><b>Platonic Sphere A: </b><br>Creates a sphere using a platonic solid. (Settings: Icosahedron, Quads, 1, 1, 1)</p>
+<p><b>Platonic Sphere A: </b><br>Creates a sphere using a platonic solid. (Settings: Octaheadron, Quads, 2, 1, 1)</p>
 
 <br>
 
