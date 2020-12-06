@@ -79,17 +79,17 @@ The icon on the left describes the validity of the path. If the file or director
 <img src="./media/gt_color_manager.jpg" align="right"
      alt="GT Path Manager GUI"><br>
 
-
 <p>Script for quickly coloring elements in Maya.<br>Feedback is given through inView messages at the left bottom corner.</p>
 
 <p><b>Modes: </b><br>- Drawing Override: Utilize "Object > Object Display > Drawing Overrides" to set color.<br>- Wireframe Color:  Utilize "Display > Wireframe Color..." to set color.</p>
 
 <p><b>Target: </b><br>- Transform:  Colorize actual selection. Usually a "transform"<br>- Wireframe Color:  Colorize the shape node inside the transform</p>
 <br><br>
-<img src="./media/gt_color_manager_sample_a.gif" align="right"
-	 alt="GT Path Manager Sample A">
+
 <img src="./media/gt_color_manager_sample_b.gif" align="right"
 	 alt="GT Path Manager Sample B">
+<img src="./media/gt_color_manager_sample_a.gif" align="right"
+	 alt="GT Path Manager Sample A">
 
 
 <p><b>Current Color: </b><br>The color used in the operation. Click on the color to open Maya's color picker.</p>
@@ -100,6 +100,32 @@ The icon on the left describes the validity of the path. If the file or director
 <p><b>Set Color For: </b><br>- Outliner:  Control the outliner color
 <br>- Wireframe Color:  Control the wireframe color seen in the viewport</p>
 
+</div>
+
+<!-- GT Transfer Transforms -->
+<div>
+<h1> GT Transfer Transforms </h1>
+
+<img src="./media/gt_transfer_transforms.jpg" align="right"
+     alt="GT Path Manager GUI"><br>
+
+<p>Script for transfering translate, rotate or scale data from one object to antoher.</p>
+
+<p><b>Transfer (Source/Targets): </b><br>1. Select Source 1st<br>- Wireframe Color:  Utilize "Display > Wireframe Color..." to set color.</p>
+
+<p><b>Target: </b><br>- Transform:  Colorize actual selection. Usually a "transform"<br>2. Select Targets 2nd,3rd...<br>3. Select which transforms to transfer (or maybe invert)</p>
+<br><br>
+
+<p><b>Transfer from one side to the other: </b><br>"From Right to Left" and From Left To Right" functions.</p>
+<p>1. Select all elements
+<br>2. Select which transforms to transfer (or maybe invert)
+<br>3. Select one of the "From > To" options
+<br>e.g. "From Right to Left" : Copy transforms from objects
+with the provided prefix "Right Side Tag" to objects 
+with the provided prefix "Left Side Tag".</p>
+
+<p><b>Copy and Paste Transforms: </b><br>This function doesn't take in consideration the previous settings.
+It works on its own. <br>As the name suggests, it copy transforms, which populates the text fields, or it pastes transforms from selected fields back to selected objects.</p>
 
 </div>
 
