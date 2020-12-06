@@ -9,6 +9,11 @@
 <div>
 <h1> Table of Contents </h1>
 <a href="https://github.com/TrevisanGMW/gt-tools"><img src="../gt_logo.png" align="right" alt="GT Tools Logo" width="400"></a>
+<h3><b>General:</></h3>
+<ul>
+  <li><a href="#-gt-renamer-">GT Menu</a></li>
+  <li><a href="#-gt-renamer-">GT Check for Updates</a></li>
+</ul>
 <h3><b>Tools:</></h3>
 <ul>
   <li><a href="#-gt-renamer-">GT Renamer</a></li>
@@ -18,8 +23,65 @@
   <li><a href="#-gt-transfer-transforms-">GT Transfer Transforms</a></li>
   <li><a href="#-gt-render-checklist-">GT Render Checklist</a></li>
 </ul>
-<br><br>
+<br>
 </div>
+
+
+
+<!-- GT Menu -->
+<div>
+<h1> GT Menu </h1>
+<img src="./media/gt_menu.jpg" align="right"
+     alt="GT Dropdown Menu and Help">
+
+
+<p>The script "gt_tools_menu.mel" adds a new dropdown menu to the main Maya window. It provides the user with easy access to the other scripts based on categories. 
+<br>This menu contains sub-menus that have been organized to contain related tools. For example: modeling, rigging, utilities, etc...</p>
+
+<p><b>How does Maya know to run the script and create the menu?: When you install the script package, it adds a line of code to the "userSetup.mel" file. This file gets executed every time Maya opens.</b><br></p>
+
+<p><b>Help > About: </b><br>This option opens a window showing basic information about GT Tools.</p>
+
+<p><b>Re-Build Menu: </b>It re-creates the GT Tools menu, and does a rehash to pick up any new scripts. (Good for when updating, so you don't need to restart Maya)</p>
+
+<p><b>Check for Updates: </b><br>Opens the script "gt_check_for_updates" to compare your version with the latest release.</p>
+
+<p><b>Installed Version: </b>What version is currently installed.</p>
+<br>
+</div>
+
+<!-- GT Check for Updates -->
+<div>
+<h1> GT Check for Updates </h1>
+<img src="./media/gt_check_for_updates.jpg" align="right"
+     alt="GT Check for Updates UI">
+
+
+<p>This script compares your current GT Tools version with the latest release from Github. In case the version installed is older than the latest release, an option to update becomes available.<br>In this window you can also control how often the script will automatically check for updates.</p>
+
+<p><b>Status: </b>Result from the comparison. In case you have an older version it will let you know that the script package can be updated.</p>
+
+<p><b>Web Response: </b><br>The script needs to ask Github for the latest release to be able to compare with the one you have. In case internet is not available or a firewall blocked the connection you will see the error code here. (These are HTTP status codes)</p>
+
+<p><b>Re-Build Menu: </b>It re-creates the GT Tools menu, and does a rehash to pick up any new scripts. (Good for when updating, so you don't need to restart Maya)</p>
+
+<p><b>Installed Version: </b><br>Version currently installed on your computer. In case you never installed the menu, it will be (v0.0.0).</p>
+
+<p><b>Latest Release: </b>Latest version available on Github.</p>
+
+<p><b>Latest Release Changelog: </b>Here you can find a list showing all the main changes applied to the three latest versions. The version number can be found on the top left corner and the release date on the top right corner.</p>
+
+<p><b>Auto Check For Updates: </b>This function controls the behaviour of the auto updater. In case active, it will use the interval value to determine if it should check for new releases. The user will only see the update window in case there is an actual update. (This function has no impact in your Maya startup time as it only gets executed only when necessary and it waits for the program to be idle. Click on the button to toggle between Activated/Deactivated</p>
+
+<p><b>Interval: </b>This is how often the script will auto check for updates. Click on the button to change between the available intervals. (5 day, 15 days, 30 days, 3 months, 6 months, 1 year)</p>
+
+<p><b>Refresh: </b>Checks for updates again.</p>
+
+<p><b>Update: </b>This button is only available in case there is a new update available. When clicked it opens the page for you to download the latest version. Simply install it again to update.</p>
+
+<br>
+</div>
+
 
 
 <!-- GT Renamer -->
