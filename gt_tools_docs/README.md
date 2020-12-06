@@ -59,7 +59,7 @@
 
 <p>This script compares your current GT Tools version with the latest release from Github. In case the version installed is older than the latest release, an option to update becomes available.<br>In this window you can also control how often the script will automatically check for updates.</p>
 
-<p><b>Status: </b>Result from the comparison. In case you have an older version it will let you know that the script package can be updated.</p>
+<p><b>Status: </b><br>Result from the comparison. In case you have an older version it will let you know that the script package can be updated.</p>
 
 <p><b>Web Response: </b><br>The script needs to ask Github for the latest release to be able to compare with the one you have. In case internet is not available or a firewall blocked the connection you will see the error code here. (These are HTTP status codes)</p>
 
@@ -302,6 +302,33 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 	</li>
 </ul>
 <br>
+</div>
+
+
+<!-- GT Generate Python Curve -->
+<div>
+<h1> GT Generate Python Curve </h1>
+
+<img src="./media/gt_generate_python_curve.jpg" align="right"
+     alt="GT Generate Python Curves GUI"><br>
+
+<p>This script generates the Python code necessary to create a selected curve. Helpful for when you want to save a curve to your shelf or to add it to a script.</p>
+
+<p><b>How to use it:</b>
+<br>1. Make sure you delete the curve's history before generating the code.
+<br>2. Select the curve you want to convert to code.
+<br>3. Click on the "Generate" button to generate the code.</p>
+
+<p><b>Add import "maya.cmds": </b>Adds a line that imports Maya's cmds API. This is necessary for when running python scripts.</p>
+
+<p><b>Close Curve: </b>Adds a line to close the curve after creating it.</p>
+
+<p><b>"Generate" button:</b> Outputs the python code necessary to create the curve inside the "Output PYthon Curve" box.</p>
+
+<p><b>Run Code: </b>Attempts to run the code (or anything written) inside  "Output Python Curve" box  </p>
+
+<br>
+
 </div>
 
 </body>
