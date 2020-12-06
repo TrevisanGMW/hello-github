@@ -138,6 +138,12 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 
 <p>This script performs a series of checks to detect common issues that are often accidently ignored/unnoticed.</p>
 
+<p><b>Checklist: </b>
+<br>- Operation: Name of the check the script will perform
+<br>- Status: Result received from the test
+<br>- Info: Extra info or comments regarding the results
+</p>
+
 <p><b>Checklist Status: </b><br>These are also buttons, you can click on them for extra functions:
 <br>- Grey: Default color, not yet tested.
 <br>- Green: Pass color, no issues were found.
@@ -146,10 +152,18 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <br>- Black: Exception color, an issue caused the check to fail. (Likely because of a missing plug-in or unexpected value)
 <br>- Question Mark, click on button for more help.</p>
 
-<p><b>Target: </b><br>- Transform:  Colorize actual selection. Usually a "transform"<br>2. Select Targets 2nd,3rd...<br>3. Select which transforms to transfer (or maybe invert)</p>
+<p><b>Settings: </b>
+<br>Change what values cause the script to return a warnings and errors.
+<br>- Apply: Stores the settings and go back to the main window (settings are persistent between Maya sessions)
+<br>- Export Settings: Exports a txt file containing all current settings.
+<br>- Import Settings: Imports a txt file exported using the previously mentioned function.
+<br>- Reset to Default Values: Resets expected values to default values.
+</p>
 
+<p><b>Generate Report: </b><br> Creates a temporary txt file with all the information collected during the checks.</p>
+<p><b>Refresh: </b><br> Runs all checks again.</p>
 
-<p>
+<p><b>Checklist Operations:</b><br>
 [X] Frame Rate: returns error if not matching: "film".
      Examples of custom values:
      "film" (24fps),
