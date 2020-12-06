@@ -1,6 +1,6 @@
 <!-- GT Tools Docs -->
-<p></p>
 
+<p></p>
 <!-- GT Renamer -->
 <h1> GT Renamer </h1>
 <img src="./media/gt_renamer.jpg" align="right"
@@ -20,6 +20,7 @@
 
 <p><b>Search and Replace: </b>Uses the well-known method of search and replace to rename objects.</p>
 
+<p></p>
 <!-- GT Selection Manager-->
 <h1> GT Selection Manager </h1>
 <img src="./media/gt_selection_manager.jpg" align="right"
@@ -40,6 +41,7 @@
 
 <p><b>Create New Selection: </b>Uses all objects as initial selection<br><b>Update Current Selection: </b>Considers only selected objects</p>
 
+<p></p>
 <!-- GT Path Manager -->
 <h1> GT Path Manager </h1>
 <img src="./media/gt_path_manager.gif" align="right"
@@ -59,16 +61,17 @@ The icon on the left describes the validity of the path. If the file or director
 
 <p><b>Search Path: </b>A directory path used when looking for missing files.</p>
 
+<p></p>
 <!-- GT Color Manager -->
 <h1> GT Color Manager </h1>
 <img src="./media/gt_color_manager.jpg" align="right"
      alt="GT Path Manager GUI">
-<img src="./media/gt_color_manager_sample_b.gif" align="right"
-     alt="GT Path Manager Sample B">
-<img src="./media/gt_color_manager_sample_a.gif" align="right"
-     alt="GT Path Manager Sample A">
-
-
+<div align="right">
+	<img src="./media/gt_color_manager_sample_b.gif" align="right"
+		 alt="GT Path Manager Sample B">
+	<img src="./media/gt_color_manager_sample_a.gif" align="right"
+		 alt="GT Path Manager Sample A">
+</div>
 
 <p>Script for quickly coloring elements in Maya.</p>
 
@@ -78,10 +81,10 @@ The icon on the left describes the validity of the path. If the file or director
 
 <p><b>Current Color: </b><br>The color used in the operation. Click on the color to open Maya's color picker.</p>
 
-<p><b>Color Presets: </b><br>A list of common colors. When clicking it sets the color.</p>
+<p><b>Color Presets: </b><br>A list of common colors. When clicked it sets the color.</p>
 
 <p><b>Set Color For: </b><br>- Outliner:  Control the outliner color
-<br>- Wireframe Color:  Control the wireframe color seen in the viewpor</p>
+<br>- Wireframe Color:  Control the wireframe color seen in the viewport</p>
 
 
 
