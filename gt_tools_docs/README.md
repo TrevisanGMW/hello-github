@@ -5,6 +5,8 @@
 <h1> GT Renamer </h1>
 <img src="./media/gt_renamer.jpg" align="right"
      alt="GT Renamer GUI">
+<img src="./media/gt_renamer_sample" align="right"
+     alt="GT Renamer Sample">
 
 <p>Script for renaming multiple objects.</p>
 
