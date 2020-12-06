@@ -115,13 +115,12 @@ The icon on the left describes the validity of the path. If the file or director
 <p><b>Transfer (Source/Targets): </b><br>1. Select Source 1st<br>- Wireframe Color:  Utilize "Display > Wireframe Color..." to set color.</p>
 
 <p><b>Target: </b><br>- Transform:  Colorize actual selection. Usually a "transform"<br>2. Select Targets 2nd,3rd...<br>3. Select which transforms to transfer (or maybe invert)</p>
-<br><br>
 
 <p><b>Transfer from one side to the other: </b><br>"From Right to Left" and From Left To Right" functions.</p>
 <p>1. Select all elements
 <br>2. Select which transforms to transfer (or maybe invert)
 <br>3. Select one of the "From > To" options
-<br>e.g. "From Right to Left" : Copy transforms from objects
+<br>e.g. "From Right to Left" : <br>Copy transforms from objects
 with the provided prefix "Right Side Tag" to objects 
 with the provided prefix "Left Side Tag".</p>
 
