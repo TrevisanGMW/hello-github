@@ -126,6 +126,7 @@ with the provided prefix "Left Side Tag".</p>
 
 <p><b>Copy and Paste Transforms: </b><br>This function doesn't take in consideration the previous settings.
 It works on its own. <br>As the name suggests, it copy transforms, which populates the text fields, or it pastes transforms from selected fields back to selected objects.</p>
+<br>
 
 </div>
 
@@ -163,14 +164,15 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <p><b>Generate Report: </b><br> Creates a temporary txt file with all the information collected during the checks.</p>
 <p><b>Refresh: </b><br> Runs all checks again.</p>
 
-<p><b>Checklist Operations:</b><br>
-[X] Frame Rate: returns error if not matching: "film".
+<p><b>Checklist Operations:</b></p>
+<ul>
+<li> Frame Rate: returns error if not matching: "film".
      Examples of custom values:
      "film" (24fps),
      "23.976fps",
      "ntsc" (30fps),
      "ntscf" (60fps),
-     "29.97fps"
+     "29.97fps"</li>
 
 [X] Scene Units: returns error if not matching: "cm".
      Examples of custom values:
@@ -269,7 +271,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
      Alembic/BIF/GPU Cache,
      Golaem Common and Cache Nodes
 
-</p>
+</ul>
 
 
 
