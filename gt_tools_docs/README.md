@@ -319,13 +319,13 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <br>2. Select the curve you want to convert to code.
 <br>3. Click on the "Generate" button to generate the code.</p>
 
-<p><b>Add import "maya.cmds": </b>Adds a line that imports Maya's cmds API. This is necessary for when running python scripts.</p>
+<p><b>Add import "maya.cmds": </b><br>Adds a line that imports Maya's cmds API. This is necessary for when running python scripts.</p>
 
-<p><b>Close Curve: </b>Adds a line to close the curve after creating it.</p>
+<p><b>Close Curve: </b><br>Adds a line to close the curve after creating it.</p>
 
-<p><b>"Generate" button:</b> Outputs the python code necessary to create the curve inside the "Output PYthon Curve" box.</p>
+<p><b>"Generate" button:</b><br>Outputs the python code necessary to create the curve inside the "Output PYthon Curve" box.</p>
 
-<p><b>Run Code: </b>Attempts to run the code (or anything written) inside  "Output Python Curve" box  </p>
+<p><b>Run Code: </b><br>Attempts to run the code (or anything written) inside  "Output Python Curve" box  </p>
 
 <br>
 
