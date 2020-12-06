@@ -172,15 +172,16 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
      "23.976fps",
      "ntsc" (30fps),
      "ntscf" (60fps),
-     "29.97fps"</li>
+     "29.97fps"
+</li>
 
-[X] Scene Units: returns error if not matching: "cm".
+<li> Scene Units: returns error if not matching: "cm".
      Examples of custom values:
      "mm" (milimeter),
      "cm" (centimeter),
      "m" (meter)
-
-[X] Output Resolution: returns error if not: ['1920', '1080'].
+</li>
+<li> Output Resolution: returns error if not: ['1920', '1080'].
      Please use a comma "," for entering a custom value.
      Examples of custom values:
      "1280, 720" (720p),
@@ -188,76 +189,76 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
      "2560, 1440" (1440p),
      "3840, 2160" (4K),
      "7680, 4320" (8K)
-
-[X] Total Texture Count: error if more than 50
+</li>
+<li> Total Texture Count: error if more than 50
      warning if more than 40.
     (UDIM tiles are counted as individual textures)
-
-[X] Network File Paths: must start with ['vfsstorage10']
+</li>
+<li> Network File Paths: must start with ['vfsstorage10']
    This function completely ignore slashes.
    You may use a list as custom value.
    Use a comma "," to separate multiple paths
-
-[X] Network Reference Paths: must start with ['vfsstorage10']
+</li>
+<li> Network Reference Paths: must start with ['vfsstorage10']
    This function completely ignore slashes.
    You may use a list as custom value.
    Use a comma "," to separate multiple paths
-
-[X] Unparented Objects: returns error if common objects are
+</li>
+<li> Unparented Objects: returns error if common objects are
      found outside hierarchies
-
-[X] Total Triangle Count: : error if more than 2000000
+</li>
+<li> Total Triangle Count: : error if more than 2000000
      warning if more than: 1800000.
-
-[X] Total Poly Object Count: error if more than 100
+</li>
+<li> Total Poly Object Count: error if more than 100
      warning if more than 90
-
-[X] Shadow Casting Lights: error if more than 3
+</li>
+<li> Shadow Casting Lights: error if more than 3
      warning if more than 2.
-
-[X] RS Shadow Casting Lights: error if more than 4
+</li>
+<li> RS Shadow Casting Lights: error if more than 4
      warning if more than 3.
-
-[X] Ai Shadow Casting Lights: error if more than 4
+</li>
+<li> Ai Shadow Casting Lights: error if more than 4
      warning if more than 3.
-
-[X] Default Object Names: error if using default names.
+</li>
+<li> Default Object Names: error if using default names.
   warning if containing default names.
     Examples of default names:
       "pCube1" = Error
       "pointLight1" = Error
       "nurbsPlane1" = Error
       "my_pCube" = Warning
-
-[X] Objects Assigned to lambert1: error if anything is assigned.
-
-[X] Ngons: error if any ngons found.
+</li>
+<li> Objects Assigned to lambert1: error if anything is assigned.
+</li>
+<li> Ngons: error if any ngons found.
      A polygon that is made up of five or more vertices. 
      Anything over a quad (4 sides) is considered an ngon
-
-[X] Non-manifold Geometry: error if is found.
+</li>
+<li> Non-manifold Geometry: error if is found.
     A non-manifold geometry is a 3D shape that cannot be
     unfolded into a 2D surface with all its normals pointing
     the same direction.
     For example, objects with faces inside of it.
-
-[X] Empty UV Sets: error if multiples UV Sets and Empty UV Sets.
+</li>
+<li> Empty UV Sets: error if multiples UV Sets and Empty UV Sets.
      It ignores objects without UVs if they have only one UV Set.
-
-[X] Frozen Transforms: error if rotation(XYZ) not frozen.
+</li>
+<li> Frozen Transforms: error if rotation(XYZ) not frozen.
      It doesn't check objects with incoming connections,
      for example, animations or rigs.
-
-[X] Animated Visibility: error if animated visibility is found
+</li>
+<li> Animated Visibility: error if animated visibility is found
      warning if hidden object is found.
-
-[X] Non Deformer History: error if any non-deformer history found.
-
-[X] Textures Color Space: error if incorrect color space found.
+</li>
+<li> Non Deformer History: error if any non-deformer history found.
+</li>
+<li> Textures Color Space: error if incorrect color space found.
      It only checks commonly used nodes for Redshift and Arnold
      Generally "sRGB" -> float3(color), and "Raw" -> float(value).
-
-[X] Other Network Paths: must start with ['vfsstorage10']
+</li>
+<li> Other Network Paths: must start with ['vfsstorage10']
    This function completely ignore slashes.
    You may use a list as custom value.
    Use a comma "," to separate multiple paths
@@ -270,7 +271,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
      Redshift Proxy/Volume/Normal/Lights,
      Alembic/BIF/GPU Cache,
      Golaem Common and Cache Nodes
-
+</li>
 </ul>
 
 
