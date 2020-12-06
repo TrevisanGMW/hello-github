@@ -1,3 +1,6 @@
+<!-- GT Tools Docs -->
+<p></p>
+<h1> GT Path Manager </h1>
 <img src="./gt_path_manager.gif" align="right" style="margin-right:0;" 
      alt="GT Path Manager Sample Image">
 	 
