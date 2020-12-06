@@ -9,8 +9,16 @@
 <div>
 <h1> Table of Contents </h1>
 <img src="../gt_logo.png" align="right"
-     alt="GT Tools Logo">
-
+     alt="GT Tools Logo" width="200">
+<p><b>Tools:</></p>
+<ul>
+  <li>GT Renamer</li>
+  <li>GT Selection Manager</li>
+  <li>GT Path Manager</li>
+  <li>GT Color Manager</li>
+  <li>GT Transfer Transforms</li>
+  <li>GT Render Checklist</li>
+</ul>
 
 </div>
 
