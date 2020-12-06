@@ -9,14 +9,14 @@
 The icon on the left describes the validity of the path. If the file or directory is found in the system it shows a green confirm icon otherwise it shows a red icon.</p>
 
 
-<p><h5>Auto Path Repair: </h5>This function walks through the folders under the provided directory looking for missing files. If it finds a match, the path is updated.</p>
+<p><b>Auto Path Repair: </b>This function walks through the folders under the provided directory looking for missing files. If it finds a match, the path is updated.</p>
 
 
-<p><h5>Search and Replace: </h5>This function allows you to search and replace strings in the listed paths.</p>
+<p><b>Search and Replace: </b>This function allows you to search and replace strings in the listed paths.</p>
 
-<p><h5>Refresh: </h5>Re-populates the list while re-checking for path validity.</p>
+<p><b>Refresh: </b>Re-populates the list while re-checking for path validity.</p>
 
-<p><h5>Search Path: </h5>A directory path used when looking for missing files.</p>
+<p><b>Search Path: </b>A directory path used when looking for missing files.</p>
 
 
 
