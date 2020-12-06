@@ -161,117 +161,65 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <br>- Reset to Default Values: Resets expected values to default values.
 </p>
 
-<p><b>Generate Report: </b><br> Creates a temporary txt file with all the information collected during the checks.</p>
-<p><b>Refresh: </b><br> Runs all checks again.</p>
+<p><b>Main Buttons: </b>
+<br>- Generate Report: Creates a temporary txt file with all the information collected during the checks.
+<br>- Refresh: Runs all checks again.</p>
 
 <p><b>Checklist Operations:</b></p>
 <ul>
-<li> Frame Rate: returns error if not matching: "film".
-     Examples of custom values:
-     "film" (24fps),
-     "23.976fps",
-     "ntsc" (30fps),
-     "ntscf" (60fps),
-     "29.97fps"
-</li>
-
-<li> Scene Units: returns error if not matching: "cm".
-     Examples of custom values:
-     "mm" (milimeter),
-     "cm" (centimeter),
-     "m" (meter)
-</li>
-<li> Output Resolution: returns error if not: ['1920', '1080'].
-     Please use a comma "," for entering a custom value.
-     Examples of custom values:
-     "1280, 720" (720p),
-     "1920, 1080" (1080p),
-     "2560, 1440" (1440p),
-     "3840, 2160" (4K),
-     "7680, 4320" (8K)
-</li>
-<li> Total Texture Count: error if more than 50
-     warning if more than 40.
-    (UDIM tiles are counted as individual textures)
-</li>
-<li> Network File Paths: must start with ['vfsstorage10']
-   This function completely ignore slashes.
-   You may use a list as custom value.
-   Use a comma "," to separate multiple paths
-</li>
-<li> Network Reference Paths: must start with ['vfsstorage10']
-   This function completely ignore slashes.
-   You may use a list as custom value.
-   Use a comma "," to separate multiple paths
-</li>
-<li> Unparented Objects: returns error if common objects are
-     found outside hierarchies
-</li>
-<li> Total Triangle Count: : error if more than 2000000
-     warning if more than: 1800000.
-</li>
-<li> Total Poly Object Count: error if more than 100
-     warning if more than 90
-</li>
-<li> Shadow Casting Lights: error if more than 3
-     warning if more than 2.
-</li>
-<li> RS Shadow Casting Lights: error if more than 4
-     warning if more than 3.
-</li>
-<li> Ai Shadow Casting Lights: error if more than 4
-     warning if more than 3.
-</li>
-<li> Default Object Names: error if using default names.
-  warning if containing default names.
-    Examples of default names:
-      "pCube1" = Error
-      "pointLight1" = Error
-      "nurbsPlane1" = Error
-      "my_pCube" = Warning
-</li>
-<li> Objects Assigned to lambert1: error if anything is assigned.
-</li>
-<li> Ngons: error if any ngons found.
-     A polygon that is made up of five or more vertices. 
-     Anything over a quad (4 sides) is considered an ngon
-</li>
-<li> Non-manifold Geometry: error if is found.
-    A non-manifold geometry is a 3D shape that cannot be
-    unfolded into a 2D surface with all its normals pointing
-    the same direction.
-    For example, objects with faces inside of it.
-</li>
-<li> Empty UV Sets: error if multiples UV Sets and Empty UV Sets.
-     It ignores objects without UVs if they have only one UV Set.
-</li>
-<li> Frozen Transforms: error if rotation(XYZ) not frozen.
-     It doesn't check objects with incoming connections,
-     for example, animations or rigs.
-</li>
-<li> Animated Visibility: error if animated visibility is found
-     warning if hidden object is found.
-</li>
-<li> Non Deformer History: error if any non-deformer history found.
-</li>
-<li> Textures Color Space: error if incorrect color space found.
-     It only checks commonly used nodes for Redshift and Arnold
-     Generally "sRGB" -> float3(color), and "Raw" -> float(value).
-</li>
-<li> Other Network Paths: must start with ['vfsstorage10']
-   This function completely ignore slashes.
-   You may use a list as custom value.
-   Use a comma "," to separate multiple paths
-   This function checks:
-     Audio Nodes, 
-     Mash Audio Nodes,
-     nCache Nodes,
-     Maya Fluid Cache Nodes,
-     Arnold Volumes/Standins/Lights,
-     Redshift Proxy/Volume/Normal/Lights,
-     Alembic/BIF/GPU Cache,
-     Golaem Common and Cache Nodes
-</li>
+	<li> Frame Rate: returns error if not matching expected frame rate, for example "film" (24fps).
+		<br>Examples of custom values:"film" (24fps),"23.976fps", "ntsc" (30fps), "ntscf" (60fps), "29.97fps"
+	</li>
+	<li> Scene Units: returns error if not matching expected value, for example "cm".
+		<br>Examples of custom values: "mm" (milimeter), "cm" (centimeter), "m" (meter).
+	</li>
+	<li> Output Resolution: returns error if not matching expected value, for example : ['1920', '1080'].
+		<br>Please use a comma "," for entering a custom value. Examples of custom values: "1280, 720" (720p), "1920, 1080" (1080p), "2560, 1440" (1440p), "3840, 2160" (4K), "7680, 4320" (8K)
+	</li>
+	<li> Total Texture Count: error if more than expected value 50 (default value) and a warning if more than 40 (default value). (UDIM tiles are counted as individual textures)
+	</li>
+	<li> Network File Paths: must start with ['path']. Path is a list, you can enter all acceptable locations (usually in the network for render farms)
+		<br>This function completely ignore slashes. You may use a list as custom value. Use a comma "," to separate multiple paths.
+	</li>
+	<li> Network Reference Paths: must start with ['path']. Path is a list, you can enter all acceptable locations (usually in the network for render farms)
+		<br>This function completely ignore slashes. You may use a list as custom value. Use a comma "," to separate multiple paths
+	</li>
+	<li> Unparented Objects: returns an error if common objects are found outside hierarchies. For example a cube outside of a group.</li>
+	<li> Total Triangle Count: : error if more than 2000000 (default value) warning if more than: 1800000 (default value).
+	</li>
+	<li> Total Poly Object Count: error if more than 100 (default value) warning if more than 90 (default value).
+	</li>
+	<li> Shadow Casting Lights: error if more than 3 (default value) warning if more than 2 (default value).
+	</li>
+	<li> RS Shadow Casting Lights: error if more than 4 (default value) warning if more than 3(default value).
+	</li>
+	<li> Ai Shadow Casting Lights: error if more than 4 (default value) warning if more than 3 (default value).
+	</li>
+	<li> Default Object Names: error if using default names. Warning if containing default names. 
+		<br>Examples of default names: "pCube1" = Error, "pointLight1" = Error, "nurbsPlane1" = Error, "my_pCube" = Warning
+	</li>
+	<li> Objects Assigned to lambert1: error if anything is assigned to the default shader "lambert1".
+	</li>
+	<li> Ngons: error if any ngons are found. (A polygon that is made up of five or more vertices. Anything over a quad (4 sides) is considered an ngon)
+	</li>
+	<li> Non-manifold Geometry: error if is found. A non-manifold geometry is a 3D shape that cannot be unfolded into a 2D surface with all its normals pointing the same direction.
+		<br>For example, objects with faces inside of it or faces with edges extruded out of it.
+	</li>
+	<li> Empty UV Sets: error if multiples UV Sets and Empty UV Sets. It ignores objects without UVs if they have only one UV Set.
+	</li>
+	<li> Frozen Transforms: error if rotation(XYZ) not frozen. It doesn't check objects with incoming connections, for example, animations or rigs.
+	</li>
+	<li> Animated Visibility: error if animated visibility is found warning if hidden object is found.
+	</li>
+	<li> Non Deformer History: error if any non-deformer history found.
+	</li>
+	<li> Textures Color Space: error if incorrect color space found. It only checks commonly used nodes for Redshift and Arnold
+		<br>Generally "sRGB" -> float3(color), and "Raw" -> float(value).
+	</li>
+	<li> Other Network Paths: must start with ['path']. Path is a list, you can enter all acceptable locations (usually in the network for render farms)
+		<br>This function completely ignore slashes. You may use a list as custom value. Use a comma "," to separate multiple paths.
+		<br>This function checks: Audio Nodes, Mash Audio Nodes, nCache Nodes, Maya Fluid Cache Nodes, Arnold Volumes/Standins/Lights, Redshift Proxy/Volume/Normal/Lights, Alembic/BIF/GPU Cache, Golaem Common and Cache Nodes.
+	</li>
 </ul>
 
 
