@@ -38,8 +38,7 @@
 
 <p><b>You can save your selection in two ways: </b><br>As a set: creates a set containing a selection<br> As text: creates a txt file containing  the code necessary to recreate selection (as well as a list)</p>
 
-<p><b>Create New Selection: </b>Uses all objects as initial selection</p>
-<p><b>Update Current Selection: </b>Considers only selected objects</p>
+<p><b>Create New Selection: </b>Uses all objects as initial selection<br><b>Update Current Selection: </b>Considers only selected objects</p>
 
 <!-- GT Path Manager -->
 <h1> GT Path Manager </h1>
