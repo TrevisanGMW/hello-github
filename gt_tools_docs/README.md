@@ -77,7 +77,7 @@ The icon on the left describes the validity of the path. If the file or director
 
 
 <img src="./media/gt_color_manager.jpg" align="right"
-     alt="GT Path Manager GUI"><br>
+     alt="GT Color Manager GUI"><br>
 
 <p>Script for quickly coloring elements in Maya.<br>Feedback is given through inView messages at the left bottom corner.</p>
 
@@ -108,7 +108,7 @@ The icon on the left describes the validity of the path. If the file or director
 <h1> GT Transfer Transforms </h1>
 
 <img src="./media/gt_transfer_transforms.jpg" align="right"
-     alt="GT Path Manager GUI"><br>
+     alt="GT Transfer Transforms GUI"><br>
 
 <p>Script for transfering translate, rotate or scale data from one object to antoher.</p>
 
@@ -126,6 +126,138 @@ with the provided prefix "Left Side Tag".</p>
 
 <p><b>Copy and Paste Transforms: </b><br>This function doesn't take in consideration the previous settings.
 It works on its own. <br>As the name suggests, it copy transforms, which populates the text fields, or it pastes transforms from selected fields back to selected objects.</p>
+
+</div>
+
+<!-- GT Render Checklist -->
+<div>
+<h1> GT Render Checklist </h1>
+
+<img src="./media/gt_render_checklist.gif" align="right"
+     alt="GT Render Checklist GUI"><br>
+
+<p>This script performs a series of checks to detect common issues that are often accidently ignored/unnoticed.</p>
+
+<p><b>Checklist Status: </b><br>These are also buttons, you can click on them for extra functions:
+<br>- Grey: Default color, not yet tested.
+<br>- Green: Pass color, no issues were found.
+<br>- Yellow: Warning color, some possible issues were found.
+<br>- Red: Error color, issues were found.
+<br>- Black: Exception color, an issue caused the check to fail. (Likely because of a missing plug-in or unexpected value)
+<br>- Question Mark, click on button for more help.</p>
+
+<p><b>Target: </b><br>- Transform:  Colorize actual selection. Usually a "transform"<br>2. Select Targets 2nd,3rd...<br>3. Select which transforms to transfer (or maybe invert)</p>
+
+
+<p>
+[X] Frame Rate: returns error if not matching: "film".
+     Examples of custom values:
+     "film" (24fps),
+     "23.976fps",
+     "ntsc" (30fps),
+     "ntscf" (60fps),
+     "29.97fps"
+
+[X] Scene Units: returns error if not matching: "cm".
+     Examples of custom values:
+     "mm" (milimeter),
+     "cm" (centimeter),
+     "m" (meter)
+
+[X] Output Resolution: returns error if not: ['1920', '1080'].
+     Please use a comma "," for entering a custom value.
+     Examples of custom values:
+     "1280, 720" (720p),
+     "1920, 1080" (1080p),
+     "2560, 1440" (1440p),
+     "3840, 2160" (4K),
+     "7680, 4320" (8K)
+
+[X] Total Texture Count: error if more than 50
+     warning if more than 40.
+    (UDIM tiles are counted as individual textures)
+
+[X] Network File Paths: must start with ['vfsstorage10']
+   This function completely ignore slashes.
+   You may use a list as custom value.
+   Use a comma "," to separate multiple paths
+
+[X] Network Reference Paths: must start with ['vfsstorage10']
+   This function completely ignore slashes.
+   You may use a list as custom value.
+   Use a comma "," to separate multiple paths
+
+[X] Unparented Objects: returns error if common objects are
+     found outside hierarchies
+
+[X] Total Triangle Count: : error if more than 2000000
+     warning if more than: 1800000.
+
+[X] Total Poly Object Count: error if more than 100
+     warning if more than 90
+
+[X] Shadow Casting Lights: error if more than 3
+     warning if more than 2.
+
+[X] RS Shadow Casting Lights: error if more than 4
+     warning if more than 3.
+
+[X] Ai Shadow Casting Lights: error if more than 4
+     warning if more than 3.
+
+[X] Default Object Names: error if using default names.
+  warning if containing default names.
+    Examples of default names:
+      "pCube1" = Error
+      "pointLight1" = Error
+      "nurbsPlane1" = Error
+      "my_pCube" = Warning
+
+[X] Objects Assigned to lambert1: error if anything is assigned.
+
+[X] Ngons: error if any ngons found.
+     A polygon that is made up of five or more vertices. 
+     Anything over a quad (4 sides) is considered an ngon
+
+[X] Non-manifold Geometry: error if is found.
+    A non-manifold geometry is a 3D shape that cannot be
+    unfolded into a 2D surface with all its normals pointing
+    the same direction.
+    For example, objects with faces inside of it.
+
+[X] Empty UV Sets: error if multiples UV Sets and Empty UV Sets.
+     It ignores objects without UVs if they have only one UV Set.
+
+[X] Frozen Transforms: error if rotation(XYZ) not frozen.
+     It doesn't check objects with incoming connections,
+     for example, animations or rigs.
+
+[X] Animated Visibility: error if animated visibility is found
+     warning if hidden object is found.
+
+[X] Non Deformer History: error if any non-deformer history found.
+
+[X] Textures Color Space: error if incorrect color space found.
+     It only checks commonly used nodes for Redshift and Arnold
+     Generally "sRGB" -> float3(color), and "Raw" -> float(value).
+
+[X] Other Network Paths: must start with ['vfsstorage10']
+   This function completely ignore slashes.
+   You may use a list as custom value.
+   Use a comma "," to separate multiple paths
+   This function checks:
+     Audio Nodes, 
+     Mash Audio Nodes,
+     nCache Nodes,
+     Maya Fluid Cache Nodes,
+     Arnold Volumes/Standins/Lights,
+     Redshift Proxy/Volume/Normal/Lights,
+     Alembic/BIF/GPU Cache,
+     Golaem Common and Cache Nodes
+
+</p>
+
+
 
 </div>
 
