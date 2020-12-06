@@ -36,7 +36,7 @@
 
 <p><b>Store Selection Options: </b><br>Select objects and click on "Store Selection" to store them for later.<br>Use the "-" and "+" buttons to add or remove elements.<br>Use the "Reset" button to clear your selection.</p>
 
-<p><b>You can save your selection in two ways: </b><br>As a set: creates a set containing a selection<br> As text: creates a txt file containing  the code necessary to recreate selection (as well as a list)</p>
+<p><b>You can save your selection in two ways: </b><br>As a set: creates a set containing your selection.<br> As text: creates a txt file containing  the code necessary to recreate selection.</p>
 
 <p><b>Create New Selection: </b>Uses all objects as initial selection<br><b>Update Current Selection: </b>Considers only selected objects</p>
 
