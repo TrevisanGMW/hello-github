@@ -30,25 +30,25 @@
 </ul>
 <h3><b>Modeling:</b></h3>
 <ul>
-  <li><a href="#-gt-generate-python-curve-">GT Sphere Types</a></li>
+  <li><a href="#-gt-sphere-types-">GT Sphere Types</a></li>
 </ul>
 <h3><b>Rigging:</b></h3>
 <ul>
-  <li><a href="#-gt-generate-python-curve-">GT Connect Attributes</a></li>
-  <li><a href="#-gt-generate-python-curve-">GT Mirror Cluster Tool</a></li>
-  <li><a href="#-gt-generate-python-curve-">GT Generate In-Between</a></li>
-  <li><a href="#-gt-generate-python-curve-">GT Create Auto FK</a></li>
-  <li><a href="#-gt-generate-python-curve-">GT Create IK Leg</a></li>
-  <li><a href="#-gt-generate-python-curve-">GT Make Stretchy Leg</a></li>
+  <li><a href="#-table-of-contents-">GT Connect Attributes</a></li>
+  <li><a href="#-table-of-contents-">GT Mirror Cluster Tool</a></li>
+  <li><a href="#-table-of-contents-">GT Generate In-Between</a></li>
+  <li><a href="#-table-of-contents-">GT Create Auto FK</a></li>
+  <li><a href="#-table-of-contents-">GT Create IK Leg</a></li>
+  <li><a href="#-table-of-contents-">GT Make Stretchy Leg</a></li>
 </ul>
 <h3><b>Utilities:</b></h3>
 <ul>
-  <li><a href="#-gt-generate-python-curve-">GT Utilities</a></li>
+  <li><a href="#-table-of-contents-">GT Utilities</a></li>
 </ul>
 <h3><b>Miscellaneous:</b></h3>
 <ul>
-  <li><a href="#-gt-generate-python-curve-">GT Startup Booster</a></li>
-  <li><a href="#-gt-generate-python-curve-">GT Maya to Discord</a></li>
+  <li><a href="#-table-of-contents-">GT Startup Booster</a></li>
+  <li><a href="##-table-of-contents-">GT Maya to Discord</a></li>
 </ul>
 <br>
 </div>
@@ -393,6 +393,40 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <p><b>Standard Sphere: </b><br>Creates a sphere using a cube. "Create > Polygon Primitives > Cube" then "Mesh > Smooth (2x)"</p>
 <p><b>Platonic Sphere A: </b><br>Creates a sphere using a platonic solid. (Settings: Icosahedron, Quads, 1, 1, 1)</p>
 <p><b>Platonic Sphere A: </b><br>Creates a sphere using a platonic solid. (Settings: Octaheadron, Quads, 2, 1, 1)</p>
+
+<br>
+
+</div>
+
+<!-- GT Connect Attributes -->
+<div>
+<h1> GT Connect Attributes </h1>
+
+<img src="./media/gt_connect_attributes.jpg" align="right"
+     alt="GT Connect Attributes GUI"><br>
+
+<p>This script automates the creation of connections between attributes from source (output) and target (input).</p>
+
+<p><b>Use Selection for Source and Target (s): </b>
+<br>When this option is activated, you no longer need to load sources/target (s).
+<br>You can simply select: 1st: source, 2nd, 3rd... : target(s)</p>
+<p><b>Add Reverse Node:  </b><br>Adds a reverse node between connections.</p>
+<p><b>Disconnect: </b><br>Break connections between selected nodes.</p>
+<p><b>Force Connection (Overrides Existing): </b><br>Connects nodes even if they already have a connection.</p>
+
+<p><b>Add Custom Node Between Connection: </b>
+<br>Allows user to create a node between connections. (Excellent for controlling dataflow.)
+<br>-Custom Node: Which node to create
+<br>-Add Input Node: Creates one master control to update all in betweens.</p>
+
+<p><b>Load Source/Target Objects: </b>
+<br>Use these buttons to load the objects you want to use as source and target (s).</p>
+
+<p><b>Source Attribute and Target Attributes: </b>
+<br>Name of the attribute you want to connect. <br>Requirement: Use long or short name (no nice names)</p>
+
+<p><b>List All Attributes and List Keyable Attributes: </b>
+<br>Returns a list of attributes that can be used to populate the Source and Target Attributes fields.</p>
 
 <br>
 
