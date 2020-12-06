@@ -442,7 +442,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <p>Script for mirroring clusters on mesh objects.</p>
 
 <p><b>Step 1: </b>
-<br>Load your mesh by selecting it in the viewport or in the outliner,L<br> then click on "Select Mesh".
+<br>Load your mesh by selecting it in the viewport or in the outliner,<br> then click on "Select Mesh".
 <br>Requirements: Must be one single mesh transform.</p>
 
 <p><b>Step 2: </b>
@@ -455,6 +455,31 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <p><b>Step 4: </b>
 <br>To save time you can automatically rename the mirrored clusters using the search and replace text fields.
 <br>For example search for "left_" and replace with "right_"</p>
+
+<br>
+
+</div>
+
+<!-- GT Generate In-Between -->
+<div>
+<h1> GT Generate In-Between </h1>
+
+<img src="./media/gt_generate_inbetween.jpg" align="right"
+     alt="GT Generate In-Between GUI"><br>
+
+<p>This script creates a inbetween transform for the selected elements.</p>
+
+<p><b>Layer Type: </b>
+<br>This pull-down menu determines what type object will be created.</p>
+
+<p><b>Parent Type: </b>
+<br>This pull-down menu determines where the pivot point of the generated element will be extracted from..</p>
+
+<p><b>Outliner Color: </b>
+<br>Determines the outliner color of the generated element.</p>
+
+<p><b>New Transform Suffix: </b>
+<br>Determines the suffix to be added to generated transforms.</p>
 
 <br>
 
