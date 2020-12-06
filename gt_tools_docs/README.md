@@ -310,7 +310,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <h1> GT Generate Python Curve </h1>
 
 <img src="./media/gt_generate_python_curve.jpg" align="right"
-     alt="GT Generate Python Curves GUI"><br>
+     alt="GT Generate Python Curve GUI"><br>
 
 <p>This script generates the Python code necessary to create a selected curve. Helpful for when you want to save a curve to your shelf or to add it to a script.</p>
 
@@ -326,6 +326,28 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <p><b>"Generate" button:</b><br>Outputs the python code necessary to create the curve inside the "Output PYthon Curve" box.</p>
 
 <p><b>Run Code: </b><br>Attempts to run the code (or anything written) inside  "Output Python Curve" box  </p>
+
+<br>
+
+</div>
+
+<!-- GT Generate Text Curve -->
+<div>
+<h1> GT Generate Text Curve </h1>
+
+<img src="./media/gt_generate_text_curve.jpg" align="right"
+     alt="GT Generate Text Curve GUI"><br>
+
+<p>This script creates merged curves containing the input text from the text field. <br>(All shapes go under one transform)</p>
+
+<p><b>How to use it:</b>
+<br>1. Select what font you want to use.
+<br>2. Type the word you want to create in the "Text:" text field.
+<br>3. Click on the "Generate" button.</p>
+
+<p>You can create multiple curves by separanting them with commas ",".</p>
+
+<p><b>Current Font: </b><br>Click on the button on its right to change the font</p>
 
 <br>
 
