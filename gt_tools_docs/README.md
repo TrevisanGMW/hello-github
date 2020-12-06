@@ -1,7 +1,7 @@
 <!-- GT Tools Docs -->
 <p></p>
 
-
+<!-- GT Renamer -->
 <h1> GT Renamer </h1>
 <img src="./media/gt_renamer.jpg" align="right"
      alt="GT Renamer GUI">
@@ -20,6 +20,28 @@
 
 <p><b>Search and Replace: </b>Uses the well-known method of search and replace to rename objects.</p>
 
+<!-- GT Selection Manager-->
+<h1> GT Selection Manager </h1>
+<img src="./media/gt_selection_manager.jpg" align="right"
+     alt="GT Selection Manager GUI">
+
+<p><b>This script allows you to update selections to contain (or not) filtered elements. You can also save and load previous selections.</p>	 
+<p><b>Element Name: </b>This option allows you to check if the string used for the object name contains or doesn't contain the, the provided strings (parameters).</p>
+<p><b>Element Type:  </b>This filter will check the type of the element to determine if it should be part of the selection or not.</p>
+<p><b>Element Type > Behavior (Dropdown Menu): </b>Since most elements are transforms, you can use the dropdown menu "Behavior" to determine how to filter the shape element (usually hidden inside the transform). <br>(You can consider transform, shape, both or ignore it)</p>
+
+<p><b>Visibility State: </b>Selection based on the current state of the node's visibility attribute.</p>
+
+<p><b>Outliner Color (Transform): </b>Filters the option under Node > Display > Outliner Color. In case you're unsure about the exact color, you can use the "Get" button to automatically copy a color.</p>
+
+<p><b>Store Selection Options: </b><br>Select objects and click on "Store Selection" to store them for later.<br>Use the "-" and "+" buttons to add or remove elements.<br>Use the "Reset" button to clear your selection.</p>
+
+<p><b>You can save your selection in two ways: </b><br>As a set: creates a set containing a selection<br> As text: creates a txt file containing  the code necessary to recreate selection (as well as a list)</p>
+
+<p><b>Create New Selection: </b>Uses all objects as initial selection</p>
+<p><b>Update Current Selection: </b>Considers only selected objects</p>
+
+<!-- GT Path Manager -->
 <h1> GT Path Manager </h1>
 <img src="./media/gt_path_manager.gif" align="right"
      alt="GT Path Manager GUI">
