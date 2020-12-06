@@ -19,10 +19,10 @@
   <li><a href="#-gt-transfer-transforms-">GT Transfer Transforms</a></li>
   <li><a href="#-gt-render-checklist-">GT Render Checklist</a></li>
 </ul>
-<br><br>
+<br><br><br><br>
 </div>
 
-<p></p>
+
 <!-- GT Renamer -->
 <div>
 <h1> GT Renamer </h1>
