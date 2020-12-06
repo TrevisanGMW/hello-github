@@ -34,7 +34,7 @@
 </ul>
 <h3><b>Rigging:</b></h3>
 <ul>
-  <li><a href="#-table-of-contents-">GT Connect Attributes</a></li>
+  <li><a href="#-gt-connect-attributes-">GT Connect Attributes</a></li>
   <li><a href="#-table-of-contents-">GT Mirror Cluster Tool</a></li>
   <li><a href="#-table-of-contents-">GT Generate In-Between</a></li>
   <li><a href="#-table-of-contents-">GT Create Auto FK</a></li>
@@ -69,11 +69,11 @@
 
 <p><b>Help > About: </b><br>This option opens a window showing basic information about GT Tools.</p>
 
-<p><b>Re-Build Menu: </b>It re-creates the GT Tools menu, and does a rehash to pick up any new scripts. (Good for when updating, so you don't need to restart Maya)</p>
+<p><b>Help > Re-Build Menu: </b>It re-creates the GT Tools menu, and does a rehash to pick up any new scripts. (Good for when updating, so you don't need to restart Maya)</p>
 
-<p><b>Check for Updates: </b><br>Opens the script "gt_check_for_updates" to compare your version with the latest release.</p>
+<p><b>Help > Check for Updates: </b><br>Opens the script "gt_check_for_updates" to compare your version with the latest release.</p>
 
-<p><b>Installed Version: </b>What version is currently installed.</p>
+<p><b>Help > Installed Version: </b>What version is currently installed.</p>
 <br>
 </div>
 
@@ -427,6 +427,34 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 
 <p><b>List All Attributes and List Keyable Attributes: </b>
 <br>Returns a list of attributes that can be used to populate the Source and Target Attributes fields.</p>
+
+<br>
+
+</div>
+
+<!-- GT Mirror Cluster Tool -->
+<div>
+<h1> GT Mirror Cluster Tool </h1>
+
+<img src="./media/gt_mirror_cluster_tool.jpg" align="right"
+     alt="GT Mirror Cluster Tool GUI"><br>
+
+<p>Script for mirroring clusters on mesh objects.</p>
+
+<p><b>Step 1: </b>
+<br>WLoad your mesh by selecting it in the viewport or in the outliner, then click on "Select Mesh".
+<br>Requirements: Must be one single mesh transform.</p>
+
+<p><b>Step 2: </b>
+<br>Load your clusterHandle by selecting it in the viewport or in the outliner, then click on "Select Cluster".
+<br>Requirements: Must be one single clusterHandle.</p>
+
+<p><b>Step 3: </b>
+<br>Select your mirror axis X, Y or Z. It will always mirror on the negative direction</p>
+
+<p><b>Step 4: </b>
+<br>To save time you can automatically rename the mirrored clusters using the search and replace text fields.
+<br>For example search for "left_" and replace with "right_"</p>
 
 <br>
 
