@@ -4,5 +4,22 @@
 <img src="./media/gt_path_manager.gif" align="right"
      alt="GT Path Manager Sample Image">
 	 
-	 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+<p>
+This script displays a list with the name, type and path of any common nodes found in Maya.
+You can select the node listed by clicking on it or change its name or path by double clicking the cell.'
+
+The icon on the left describes the validity of the path. If the file or directory is found in the system it shows a green confirm icon otherwise it shows a red icon.</p>
+
+<h5>Auto Path Repair</h5>
+<p>This function walks through the folders under the provided directory looking for missing files. If it finds a match, the path is updated.</p>
+
+<h5>Search and Replace</h5>
+<p>This function allows you to search and replace strings in the listed paths.</p>
+
+
+Refresh
+Re-populates the list while re-checking for path validity.
+
+Search Path
+A directory path used when looking for missing files.
+
