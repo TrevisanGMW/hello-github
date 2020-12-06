@@ -1,8 +1,18 @@
 <!-- GT Tools Docs -->
 <p></p>
+
+
+<h1> GT Renamer </h1>
+<img src="./media/gt_renamer.jpg" align="right"
+     alt="GT Renamer GUI">
+
+<p>Script for renaming multiple objects.</p>
+
+<p><b>Modes: </b><br>- Selected: uses selected objects when renaming.<br>- Hierarchy: uses hierarchy when renaming.<br>- All: uses everything in the scene (even hidden nodes)</p>
+
 <h1> GT Path Manager </h1>
 <img src="./media/gt_path_manager.gif" align="right"
-     alt="GT Path Manager Sample Image">
+     alt="GT Path Manager GUI">
 	 
 <p>This script displays a list with the name, type and path of any common nodes found in Maya. You can select the node listed by clicking on it or change its name or path by double clicking the cell.
 
