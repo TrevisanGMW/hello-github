@@ -8,7 +8,7 @@
 <img src="./media/gt_renamer_sample.gif" align="right"
      alt="GT Renamer Sample">
 
-<p>Script for renaming multiple objects.</p>
+<p>Script for quickly renaming multiple objects.<br>Feedback is given through inView messages at the left bottom corner.</p>
 
 <p><b>Modes: </b><br>- Selected: uses selected objects when renaming.<br>- Hierarchy: uses hierarchy when renaming.<br>- All: uses everything in the scene (even hidden nodes)</p>
 
