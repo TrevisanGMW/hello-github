@@ -597,6 +597,12 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <br>Realoading means reopening it without attempting to save it first.
 <br>It only works if the file was saved at least once.</p>
 
+<img src="./media/gtu_modeling.jpg" align="right"
+     alt="GT Utilities Modeling">
+	 
+
+
+
 <h3>Resource Browser</h3>
 <p>Opens the resource browser, a menu that allows the used to see what images are available inside Maya and download them.</p>
 
@@ -605,6 +611,10 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 
 <h3>Unhide Default Channels</h3>
 <p>This function unhides/shows the translate, rotate, scale and visibility channels for the selected objects.</p>
+
+
+<img src="./media/gtu_curves.jpg" align="right"
+     alt="GT Utilities Modeling">
 
 <h3>Unhide Default Channels</h3>
 <p>This function unhides/shows the translate, rotate, scale and visibility channels for the selected objects.</p>
@@ -648,11 +658,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <h3>Delete Keyframes</h3>
 <p>Deletes all keyframes. (It does not affect set driven keys)</p>
 
-<img src="./media/gtu_modeling.jpg" align="right"
-     alt="GT Utilities Modeling">
-	 
-<img src="./media/gtu_curves.jpg" align="right"
-     alt="GT Utilities Modeling">
+
 
 <br>
 
