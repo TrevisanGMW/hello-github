@@ -577,4 +577,32 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 
 </div>
 
+
+<!-- GT Utilities -->
+<div>
+<h1> GT Utilities </h1>
+
+<img src="./media/gt_utilities.jpg" align="right"
+     alt="GT Utilities Menu"><br>
+	 
+
+<p>GT Utilities (GTU) is a collection of smaller functions that don't necessary use a window.
+<br>Most of them are found under "GT Tools > Utilities" but a few of them are scattered throughout the other menus.</p>
+
+<p><b>Standalone use: </b>
+<br>In case you're using the standalone version of GT Utilities, you'll have to uncomment one of the functions at the bottom of the script.</p>
+
+<h2>Reload File</h2>
+<p>This utility attempts to reload the current scene. Realoading means reopening it without attempting to save it first.</p>
+<img src="./media/gtu_modeling.jpg" align="right"
+     alt="GT Utilities Modeling">
+	 
+<img src="./media/gtu_curves.jpg" align="right"
+     alt="GT Utilities Modeling">
+
+<br>
+
+</div>
+
+
 </body>
