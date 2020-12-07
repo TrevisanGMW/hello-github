@@ -648,8 +648,6 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <h3>Delete Keyframes</h3>
 <p>Deletes all keyframes. (It does not affect set driven keys)</p>
 
-
-
 <img src="./media/gtu_modeling.jpg" align="right"
      alt="GT Utilities Modeling">
 
@@ -678,6 +676,84 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <br>
 
 </div>
+
+
+<!-- GT Create IK Leg -->
+<div>
+<h1> GT Create IK Leg </h1>
+
+<img src="./media/gt_create_ik_leg.jpg" align="right"
+     alt="GT Create IK Leg GUI"><br>
+
+<p>(This script is still a work in progress)<br>This script assumes that you are using a simple leg composed of a hip joint, a knee joint an ankle joint and maybe ball and toe joints.<br>In case your setup is different, I suggest you try a different solution. </p>
+
+<p><b>Joint Tag (Suffix) and Ctrl Group Tag (Suffix): </b>
+<br>These two textfields allow you to define what suffix you used for you base skeleton joints and your control groups. 
+<br>(used when creating new names or looking for controls)
+<br>The Ctrl Group Tag is used to define the visibility of the FK system.</p>
+
+<p><b>Custom PVector Ctrl, IK Ctrl and IK Switch:  </b>
+<br>These options allow you to load an already existing control.
+<br>In case you already created curve you could simply load them and the script will use yours instead of creating a new one.</p>
+
+<p><b>Colorize Controls:  </b>
+<br>This option looks for "right_" and "left_" tags and assign colors based on the found tag.</p>
+
+<p><b>Make Stretchy Legs: </b>
+<br>This option creates measure tools to define how to strechy the leg when it goes beyong its current size.
+<br>- Term = What is being compared
+<br>- Condition = Default Size (used for scalling the rig)</p>
+
+<p><b>Use Ball Joint:  </b>
+<br>This option allows you to define whether or not to use a ball joint.</p>
+
+<p><b>Load "Content" Buttons:  </b>
+<br>These buttons allow you to load the necessary objects before running the script.</p>
+
+<br>
+
+</div>
+
+
+
+<!-- GT Startup Booster -->
+<div>
+<h1> GT Startup Booster </h1>
+
+<img src="./media/gt_startup_booster.jpg" align="right"
+     alt="GT Startup Booster GUI"><br>
+
+<p>This script helps decrease the time Maya takes to load before becoming fully functional.</p>
+
+<p><b>How It works: </b>
+<br>Not all plugins are used every time Maya is opened, but they are usually still loaded during startup. This causes the startup time to be quite slow.
+<br>This script aims to fix that, by helping you skip the heavy plugins while still having easy access to them.</p>
+
+<p>1st: Optimize.
+<br>2nd: Create Shelf Buttons.
+<br>3rd: Enjoy faster startups.</p>
+
+<p><b>Plugin List: </b>
+<br>This is a list of common plugins that are usually automatically loaded by default.
+<br>Plugin File: Name of the file used by the plugin.
+<br>Auto Load: Is this plugin automatically loading?
+<br>Installed: Is the plugin installed?
+<br>Control: General name of the plugin.</p>
+
+<p><b>"Shelf Button" and "Auto Load" Buttons: </b>
+<br>Shelf Button: Creates a Shelf Button (under the current shelf)to load the plugin and give you feedback on its current state.
+<br>Auto Load: Toggles the Auto Load function of the plugin.(same as "Auto Load" in the plugin manager)</p>
+
+<p><b>Custom Shelf Button: </b>
+<br>This script couldn't account for every heavy 3rd party plug-in.This shouldn't be an issue as you can manually add any plugin.
+<br>Just manually deactivate your third party plugin by going to "Windows > Settings/Preferences > Plug-in Manager"
+<br>Then create a custom load button using the textField that says "Other Plugins"</p>
+
+<br>
+
+</div>
+
+
 
 
 </body>
