@@ -609,7 +609,44 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <h3>Unhide Default Channels</h3>
 <p>This function unhides/shows the translate, rotate, scale and visibility channels for the selected objects.</p>
 
+<h3>Uniform LRA Toggle</h3>
+<p>This utility makes the visibility of the local rotation axis of the selected objects uniform.<br> For example, if two out of three objects have their LRA visible, it makes all of them visible.</p>
 
+<h3>Import References</h3>
+<p>Attempts to import all loaded references.</p>
+
+<h3>Remove References</h3>
+<p>Attempts to remove all references.</p>
+
+<h3>Move Pivot to Top</h3>
+<p>Moves the pivot point of the selected objects to the top of their bounding box.</p>
+
+<h3>Move Pivot to Base</h3>
+<p>Moves the pivot point of the selected objects to the base of their bounding box.</p>
+
+<h3>Move Object to Origin</h3>
+<p>Moves the selected objects to the center of the grid (0,0,0) origin point.</p>
+
+<h3>Reset Transforms</h3>
+<p>Resets translate, rotate and scale back to zero. For example, you can select all controls of a character and reset its pose.</p>
+
+<h3>Reset Joints Display</h3>
+<p>Resets the visibility of all joints. It sets the radius of all joints to one. (Unless the channel is locked) and sets the visibility to "On". It also changes the global joint display scale (multiplier) back to one.</p>
+
+<h3>Reset "persp" Camera</h3>
+<p>Resets most of the attributes for the default "persp" camera.</p>
+
+<h3>Delete Namespaces</h3>
+<p>Merges all namespaces back to the root, essentially deleting them.</p>
+
+<h3>Delete Display Layers</h3>
+<p>Deletes all display layers.</p>
+
+<h3>Delete Nucleus Nodes</h3>
+<p>Deletes all nodes related to the nucleus system.</p>
+
+<h3>Delete Keyframes</h3>
+<p>Deletes all keyframes. (It does not affect set driven keys)</p>
 
 <img src="./media/gtu_modeling.jpg" align="right"
      alt="GT Utilities Modeling">
