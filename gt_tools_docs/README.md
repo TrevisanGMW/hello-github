@@ -38,7 +38,7 @@
   <li><a href="#-gt-mirror-cluster-tool-">GT Mirror Cluster Tool</a></li>
   <li><a href="#-gt-generate-in-between-">GT Generate In-Between</a></li>
   <li><a href="#-gt-create-auto-fk-">GT Create Auto FK</a></li>
-  <li><a href="#-table-of-contents-">GT Create IK Leg</a></li>
+  <li><a href="#-gt-create-ik-leg-">GT Create IK Leg</a></li>
   <li><a href="#-table-of-contents-">GT Make Stretchy Leg</a></li>
 </ul>
 <h3><b>Utilities:</b></h3>
@@ -527,9 +527,9 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <h1> GT Create IK Leg </h1>
 
 <img src="./media/gt_create_ik_leg.jpg" align="right"
-     alt="GT GT Create IK Leg GUI"><br>
+     alt="GT Create IK Leg GUI"><br>
 
-<p>This script assumes that you are using a simple leg composed of a hip joint, a knee joint an ankle joint and maybe ball and toe joints.<br>In case your setup is different, I suggest you try a different solution. (This script is still a work in progress)</p>
+<p>(This script is still a work in progress)<br>This script assumes that you are using a simple leg composed of a hip joint, a knee joint an ankle joint and maybe ball and toe joints.<br>In case your setup is different, I suggest you try a different solution. </p>
 
 <p><b>Joint Tag (Suffix) and Ctrl Group Tag (Suffix): </b>
 <br>These two textfields allow you to define what suffix you used for you base skeleton joints and your control groups. 
@@ -553,6 +553,25 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 
 <p><b>Load "Content" Buttons:  </b>
 <br>These buttons allow you to load the necessary objects before running the script.</p>
+
+<br>
+
+</div>
+
+
+
+<!-- GT Make Stretchy Legs -->
+<div>
+<h1> GT Make Stretchy Legs </h1>
+
+<img src="./media/gt_make_stretchy_leg.jpg" align="right"
+     alt="GT Make Stretchy Legs GUI"><br>
+
+<p>(This script is still a work in progress)
+<br>This script creates a simple stretchy leg setup.<br> Select your ikHandle and click on "Make Stretchy"</p>
+
+<p><b>Important: </b>
+<br>It assumes that you have a curve driving your ikHandle as a control. <br>This curve is used to determine positions and constraints.</p>
 
 <br>
 
