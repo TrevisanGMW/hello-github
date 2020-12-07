@@ -592,7 +592,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <p><b>Standalone use: </b>
 <br>In case you're using the standalone version of GT Utilities, you'll have to uncomment one of the functions at the bottom of the script.</p>
 
-<h2>Reload File</h2>
+<h3>Reload File</h3>
 <p>This utility attempts to reload the current scene. Realoading means reopening it without attempting to save it first.</p>
 <img src="./media/gtu_modeling.jpg" align="right"
      alt="GT Utilities Modeling">
