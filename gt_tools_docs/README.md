@@ -586,8 +586,8 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
      alt="GT Utilities Menu"><br>
 	 
 
-<p>GT Utilities (GTU) is a collection of smaller functions that don't necessary use a window.
-<br>Most of them are found under "GT Tools > Utilities" but a few of them are scattered throughout the other menus.</p>
+<p>GT Utilities (GTU) is a collection of smaller functions that don't necessary need or use a window/dialog.
+<br>Most of these functions can be found under "GT Tools > Utilities" but a few of them are scattered throughout other menus.</p>
 
 <p><b>Standalone use: </b>
 <br>In case you're using the standalone version of GT Utilities, you'll have to uncomment one of the functions at the bottom of the script.</p>
@@ -595,7 +595,22 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <h3>Reload File</h3>
 <p>This utility attempts to reload the current scene.
 <br>Realoading means reopening it without attempting to save it first.
-<br>More info here.</p>
+<br>It only works if the file was saved at least once.</p>
+
+<h3>Resource Browser</h3>
+<p>Opens the resource browser, a menu that allows the used to see what images are available inside Maya and download them.</p>
+
+<h3>Unlock Default Channels</h3>
+<p>This function unlocks the translate, rotate, scale and visibility channels for the selected objects.</p>
+
+<h3>Unhide Default Channels</h3>
+<p>This function unhides/shows the translate, rotate, scale and visibility channels for the selected objects.</p>
+
+<h3>Unhide Default Channels</h3>
+<p>This function unhides/shows the translate, rotate, scale and visibility channels for the selected objects.</p>
+
+
+
 <img src="./media/gtu_modeling.jpg" align="right"
      alt="GT Utilities Modeling">
 	 
