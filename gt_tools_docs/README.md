@@ -32,6 +32,8 @@
 <ul>
   <li><a href="#-gt-sphere-types-">GT Sphere Types</a></li>
 </ul>
+
+<div align="right">
 <h3><b>Rigging:</b></h3>
 <ul>
   <li><a href="#-gt-connect-attributes-">GT Connect Attributes</a></li>
@@ -43,13 +45,15 @@
 </ul>
 <h3><b>Utilities:</b></h3>
 <ul>
-  <li><a href="gt_tools_docs#-gt-utilities-">GT Utilities</a></li>
+  <li><a href="#-gt-utilities-">GT Utilities</a></li>
 </ul>
 <h3><b>Miscellaneous:</b></h3>
 <ul>
-  <li><a href="#-table-of-contents-">GT Startup Booster</a></li>
-  <li><a href="##-table-of-contents-">GT Maya to Discord</a></li>
+  <li><a href="#-gt-startup-booster-">GT Startup Booster</a></li>
+  <li><a href="#-table-of-contents-">GT Maya to Discord</a></li>
 </ul>
+</div>
+
 <br>
 </div>
 
@@ -189,7 +193,7 @@ The icon on the left describes the validity of the path. If the file or director
 <p>Script for quickly coloring elements in Maya.<br>Feedback is given through inView messages at the left bottom corner.</p>
 
 <p><b>Modes: </b><br>- Drawing Override: Utilize "Object > Object Display > Drawing Overrides" to set color.<br>- Wireframe Color:  Utilize "Display > Wireframe Color..." to set color.</p>
-
+<br>
 <p><b>Target: </b><br>- Transform:  Colorize actual selection. Usually a "transform"<br>- Wireframe Color:  Colorize the shape node inside the transform</p>
 <br><br>
 
@@ -565,7 +569,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <h1> GT Make Stretchy Legs </h1>
 
 <img src="./media/gt_make_stretchy_leg.jpg" align="right"
-     alt="GT Make Stretchy Legs GUI"><br>
+     alt="GT Make Stretchy Legs GUI">
 
 <p>(This script is still a work in progress)
 <br>This script creates a simple stretchy leg setup.<br> Select your ikHandle and click on "Make Stretchy"</p>
