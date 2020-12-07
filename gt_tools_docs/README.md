@@ -578,7 +578,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <p><b>Important: </b>
 <br>It assumes that you have a curve driving your ikHandle as a control. <br>This curve is used to determine positions and constraints.</p>
 
-<br>
+<br><br>
 
 </div>
 
