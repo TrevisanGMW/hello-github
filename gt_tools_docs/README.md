@@ -613,11 +613,13 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <p>This function unhides/shows the translate, rotate, scale and visibility channels for the selected objects.</p>
 
 
-<img src="./media/gtu_curves.jpg" align="right"
-     alt="GT Utilities Modeling">
+
 
 <h3>Unhide Default Channels</h3>
 <p>This function unhides/shows the translate, rotate, scale and visibility channels for the selected objects.</p>
+
+<img src="./media/gtu_curves.jpg" align="right"
+     alt="GT Utilities Modeling">
 
 <h3>Uniform LRA Toggle</h3>
 <p>This utility makes the visibility of the local rotation axis of the selected objects uniform.<br> For example, if two out of three objects have their LRA visible, it makes all of them visible.</p>
