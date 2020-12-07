@@ -597,12 +597,6 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <br>Realoading means reopening it without attempting to save it first.
 <br>It only works if the file was saved at least once.</p>
 
-<img src="./media/gtu_modeling.jpg" align="right"
-     alt="GT Utilities Modeling">
-	 
-
-
-
 <h3>Resource Browser</h3>
 <p>Opens the resource browser, a menu that allows the used to see what images are available inside Maya and download them.</p>
 
@@ -612,14 +606,8 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <h3>Unhide Default Channels</h3>
 <p>This function unhides/shows the translate, rotate, scale and visibility channels for the selected objects.</p>
 
-
-
-
 <h3>Unhide Default Channels</h3>
 <p>This function unhides/shows the translate, rotate, scale and visibility channels for the selected objects.</p>
-
-<img src="./media/gtu_curves.jpg" align="right"
-     alt="GT Utilities Modeling">
 
 <h3>Uniform LRA Toggle</h3>
 <p>This utility makes the visibility of the local rotation axis of the selected objects uniform.<br> For example, if two out of three objects have their LRA visible, it makes all of them visible.</p>
@@ -662,6 +650,31 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 
 
 
+<img src="./media/gtu_modeling.jpg" align="right"
+     alt="GT Utilities Modeling">
+
+<h3>Convert Bif to Mesh</h3>
+<p>Converts selected Bifrost meshes into the standard Maya meshes. (Bif objects are created using Bifrost Graph)</p>
+
+<h3>Copy Material</h3>
+<p>Copies a material from the selection to the clipboard to later be applied to another object.
+<br>It supports components such as faces.</p>
+
+<h3>Paste Material</h3>
+<p>Pastes a material to the selection. (Use the Copy Material function to copy it first)
+<br>It supports components such as faces.</p>
+
+<img src="./media/gtu_curves.jpg" align="right"
+     alt="GT Utilities Curves">
+	 
+<h3>Combine Curves</h3>
+<p>Moves curve shape nodes of the selected curves into one single transform, essentially combining them.
+<br>In case a bezier curve is found, the script gives you the option of converting them to NURBS.</p>
+
+<h3>Separate Curves</h3>
+<p>Parents every curve shape of the selection under a new transform, causing them to be separated.</p>
+	 
+	 
 <br>
 
 </div>
