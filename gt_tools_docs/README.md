@@ -754,6 +754,69 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 </div>
 
 
+<!-- GT Maya to Discord -->
+<div>
+<h1> GT Maya to Discord </h1>
+
+<img src="./media/gt_maya_to_discord.jpg" align="right"
+     alt="GT Maya to Discord GUI">
+
+<p>This script allows you to quickly send images and videos (playblasts) from Maya to Discord using a Discord Webhook to bridge the two programs.</p>
+
+<p><b>Webhooks: </b>
+<br>A webhook (a.k.a. web callback or HTTP push API) is a way for an app to provide other applications with real-time information.
+<br>You can use it to send messages to text channels without needing the discord application.</p>
+
+<p><b>How to get a Webhook URL: </b>
+<br>If you own a Discord server or you have the correct privileges, you can go to the settings to create a Webhook URL.</p>
+
+<p><b>To create one go to: </b>
+<br>"Discord > Server > Server Settings > Webhooks > Create Webhook"
+<br>Give your webhook a name and select what channel it will operate.
+<br>Copy the "Webhook URL" and load it in the setttings for this script.<br>
+<br>If you're just an user in the server, you'll have to ask the administrator of the server to provide you with a Webhook URL.</p>
+
+<p><b>Send Buttons: </b>
+<br>Send Message Only: Sends only the attached message.
+<br>(Use the textfield above the buttons to type your message)</p>
+
+<p><b>Send Desktop Screenshot: Sends a screenshot of your desktop. </b>
+<br>(This includes other programs and windows that are open)</p>
+
+<p><b>Send Maya Window: Sends only the main Maya window. </b>
+<br>(This ignores other windows, even within Maya)</p>
+
+<p><b>Send Viewport: Sends an image of the active viewport. </b>
+<br>(Includes Heads Up Display text, but no UI elements)</p>
+
+<p><b>Send Playblast: Sends a playblast video. </b>
+<br>(Use the script settings to determine details about the video)</p>
+
+<p><b>Send OBJ/FBX: Sends a model using the chosen format. </b>
+<br>For settings, go to "File > Export Selection... > Options"</p>
+
+<p><b>Settings: </b>
+<br>The settings are persistent, which means they will stay the same between Maya sessions.</p>
+
+<p><b>Custom Username: </b>
+<br>Nickname used when posting content through the webhook.</p>
+
+<p><b>Image and Video Format: </b>
+<br>Extension used for the image and video files.</p>
+
+<p><b>Video Options: </b>
+<br>Determines the settings used when recording a playblast.</p>
+
+<p><b>Feedback and Timestamp Options: </b>
+<br>Determines feedback visibility and timestamp use.</p>
+
+<p><b>Limitations: </b>
+<br>Discord has a limit of 8MB for free users and 50MB for paid users for when uploading a file. If you get the error "Payload Too Large" it means your file exceeds the limits. Try changing the settings.</p>
+
+<br>
+
+</div>
+
 
 
 </body>
