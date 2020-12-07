@@ -184,7 +184,7 @@ The icon on the left describes the validity of the path. If the file or director
 
 
 <img src="./media/gt_color_manager.jpg" align="right"
-     alt="GT Color Manager GUI"><br>
+     alt="GT Color Manager GUI">
 
 <p>Script for quickly coloring elements in Maya.<br>Feedback is given through inView messages at the left bottom corner.</p>
 
@@ -215,7 +215,7 @@ The icon on the left describes the validity of the path. If the file or director
 <h1> GT Transfer Transforms </h1>
 
 <img src="./media/gt_transfer_transforms.jpg" align="right"
-     alt="GT Transfer Transforms GUI"><br>
+     alt="GT Transfer Transforms GUI">
 
 <p>Script for transfering translate, rotate or scale data from one object to antoher.</p>
 
@@ -242,7 +242,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <h1> GT Render Checklist </h1>
 
 <img src="./media/gt_render_checklist.gif" align="right"
-     alt="GT Render Checklist GUI"><br>
+     alt="GT Render Checklist GUI">
 
 <p>This script performs a series of checks to detect common issues that are often accidently ignored/unnoticed.</p>
 
@@ -337,7 +337,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <h1> GT Generate Python Curve </h1>
 
 <img src="./media/gt_generate_python_curve.jpg" align="right"
-     alt="GT Generate Python Curve GUI"><br>
+     alt="GT Generate Python Curve GUI">
 
 <p>This script generates the Python code necessary to create a selected curve. Helpful for when you want to save a curve to your shelf or to add it to a script.</p>
 
@@ -363,7 +363,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <h1> GT Generate Text Curve </h1>
 
 <img src="./media/gt_generate_text_curve.jpg" align="right"
-     alt="GT Generate Text Curve GUI"><br>
+     alt="GT Generate Text Curve GUI">
 
 <p>This script creates merged curves containing the input text from the text field. <br>(All shapes go under one transform)</p>
 
@@ -403,7 +403,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <h1> GT Connect Attributes </h1>
 
 <img src="./media/gt_connect_attributes.jpg" align="right"
-     alt="GT Connect Attributes GUI"><br>
+     alt="GT Connect Attributes GUI">
 
 <p>This script automates the creation of connections between attributes from source (output) and target (input).</p>
 
@@ -437,7 +437,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <h1> GT Mirror Cluster Tool </h1>
 
 <img src="./media/gt_mirror_cluster_tool.jpg" align="right"
-     alt="GT Mirror Cluster Tool GUI"><br>
+     alt="GT Mirror Cluster Tool GUI">
 
 <p>Script for mirroring clusters on mesh objects.</p>
 
@@ -465,7 +465,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <h1> GT Generate In-Between </h1>
 
 <img src="./media/gt_generate_inbetween.jpg" align="right"
-     alt="GT Generate In-Between GUI"><br>
+     alt="GT Generate In-Between GUI">
 
 <p>This script creates a inbetween transform for the selected elements.</p>
 
@@ -490,7 +490,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <h1> GT Create Auto FK </h1>
 
 <img src="./media/gt_create_auto_fk.jpg" align="right"
-     alt="GT GT Create Auto FK GUI"><br>
+     alt="GT GT Create Auto FK GUI">
 
 <p>This script generates FK controls for joints while storing their transforms in groups.
 <br>Just select the desired joints and run the script.</p>
@@ -527,7 +527,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <h1> GT Create IK Leg </h1>
 
 <img src="./media/gt_create_ik_leg.jpg" align="right"
-     alt="GT Create IK Leg GUI"><br>
+     alt="GT Create IK Leg GUI">
 
 <p>(This script is still a work in progress)<br>This script assumes that you are using a simple leg composed of a hip joint, a knee joint an ankle joint and maybe ball and toe joints.<br>In case your setup is different, I suggest you try a different solution. </p>
 
@@ -583,7 +583,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <h1> GT Utilities </h1>
 
 <img src="./media/gt_utilities.jpg" align="right"
-     alt="GT Utilities Menu"><br>
+     alt="GT Utilities Menu">
 	 
 
 <p>GT Utilities (GTU) is a collection of smaller functions that don't necessary need or use a window/dialog.
@@ -683,7 +683,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <h1> GT Create IK Leg </h1>
 
 <img src="./media/gt_create_ik_leg.jpg" align="right"
-     alt="GT Create IK Leg GUI"><br>
+     alt="GT Create IK Leg GUI">
 
 <p>(This script is still a work in progress)<br>This script assumes that you are using a simple leg composed of a hip joint, a knee joint an ankle joint and maybe ball and toe joints.<br>In case your setup is different, I suggest you try a different solution. </p>
 
@@ -721,7 +721,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <h1> GT Startup Booster </h1>
 
 <img src="./media/gt_startup_booster.jpg" align="right"
-     alt="GT Startup Booster GUI"><br>
+     alt="GT Startup Booster GUI">
 
 <p>This script helps decrease the time Maya takes to load before becoming fully functional.</p>
 
@@ -811,7 +811,8 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <br>Determines feedback visibility and timestamp use.</p>
 
 <p><b>Limitations: </b>
-<br>Discord has a limit of 8MB for free users and 50MB for paid users for when uploading a file. If you get the error "Payload Too Large" it means your file exceeds the limits. Try changing the settings.</p>
+<br>Discord has a limit of 8MB for free users and 50MB for paid users for when uploading a file.
+<br>If you get the error "Payload Too Large" it means your file exceeds the limits. Try changing the settings.</p>
 
 <br>
 
