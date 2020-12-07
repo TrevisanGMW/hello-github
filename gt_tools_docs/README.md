@@ -39,11 +39,11 @@
   <li><a href="#-gt-generate-in-between-">GT Generate In-Between</a></li>
   <li><a href="#-gt-create-auto-fk-">GT Create Auto FK</a></li>
   <li><a href="#-gt-create-ik-leg-">GT Create IK Leg</a></li>
-  <li><a href="#-table-of-contents-">GT Make Stretchy Leg</a></li>
+  <li><a href="#-gt-make-stretchy-legs-">GT Make Stretchy Leg</a></li>
 </ul>
 <h3><b>Utilities:</b></h3>
 <ul>
-  <li><a href="#-table-of-contents-">GT Utilities</a></li>
+  <li><a href="gt_tools_docs#-gt-utilities-">GT Utilities</a></li>
 </ul>
 <h3><b>Miscellaneous:</b></h3>
 <ul>
@@ -593,7 +593,9 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <br>In case you're using the standalone version of GT Utilities, you'll have to uncomment one of the functions at the bottom of the script.</p>
 
 <h3>Reload File</h3>
-<p>This utility attempts to reload the current scene. Realoading means reopening it without attempting to save it first.</p>
+<p>This utility attempts to reload the current scene.
+<br>Realoading means reopening it without attempting to save it first.
+<br>More info here.</p>
 <img src="./media/gtu_modeling.jpg" align="right"
      alt="GT Utilities Modeling">
 	 
