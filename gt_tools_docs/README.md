@@ -33,7 +33,7 @@
   <li><a href="#-gt-sphere-types-">GT Sphere Types</a></li>
 </ul>
 
-<div align="right">
+<div>
 <h3><b>Rigging:</b></h3>
 <ul>
   <li><a href="#-gt-connect-attributes-">GT Connect Attributes</a></li>
@@ -73,7 +73,8 @@
 
 <p><b>Help > About: </b><br>This option opens a window showing basic information about GT Tools.</p>
 
-<p><b>Help > Re-Build Menu: </b>It re-creates the GT Tools menu, and does a rehash to pick up any new scripts. (Good for when updating, so you don't need to restart Maya)</p>
+<p><b>Help > Re-Build Menu: </b>It re-creates the GT Tools menu, and does a rehash to pick up any new scripts.
+<br>(Good for when updating, so you don't need to restart Maya)</p>
 
 <p><b>Help > Check for Updates: </b><br>Opens the script "gt_check_for_updates" to compare your version with the latest release.</p>
 
@@ -191,11 +192,11 @@ The icon on the left describes the validity of the path. If the file or director
      alt="GT Color Manager GUI">
 
 <p>Script for quickly coloring elements in Maya.<br>Feedback is given through inView messages at the left bottom corner.</p>
-
+<br>
 <p><b>Modes: </b><br>- Drawing Override: Utilize "Object > Object Display > Drawing Overrides" to set color.<br>- Wireframe Color:  Utilize "Display > Wireframe Color..." to set color.</p>
 <br>
 <p><b>Target: </b><br>- Transform:  Colorize actual selection. Usually a "transform"<br>- Wireframe Color:  Colorize the shape node inside the transform</p>
-<br><br>
+<br>
 
 <img src="./media/gt_color_manager_sample_b.gif" align="right"
 	 alt="GT Path Manager Sample B">
@@ -343,7 +344,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <img src="./media/gt_generate_python_curve.jpg" align="right"
      alt="GT Generate Python Curve GUI">
 
-<p>This script generates the Python code necessary to create a selected curve. Helpful for when you want to save a curve to your shelf or to add it to a script.</p>
+<p>This script generates the Python code necessary to create a selected curve.<br>Helpful for when you want to save a curve to your shelf or to add it to a script.</p>
 
 <p><b>How to use it:</b>
 <br>1. Make sure you delete the curve's history before generating the code.
@@ -656,7 +657,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
      alt="GT Utilities Modeling">
 
 <h3>Convert Bif to Mesh</h3>
-<p>Converts selected Bifrost meshes into the standard Maya meshes. (Bif objects are created using Bifrost Graph)</p>
+<p>Converts selected Bifrost meshes into the standard Maya meshes.<br>(Bif objects are created using Bifrost Graph)</p>
 
 <h3>Copy Material</h3>
 <p>Copies a material from the selection to the clipboard to later be applied to another object.
@@ -670,7 +671,7 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
      alt="GT Utilities Curves">
 	 
 <h3>Combine Curves</h3>
-<p>Moves curve shape nodes of the selected curves into one single transform, essentially combining them.
+<p>Moves curve shapes of the selected curves into one single transform, essentially combining them.
 <br>In case a bezier curve is found, the script gives you the option of converting them to NURBS.</p>
 
 <h3>Separate Curves</h3>
@@ -680,44 +681,6 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <br>
 
 </div>
-
-
-<!-- GT Create IK Leg -->
-<div>
-<h1> GT Create IK Leg </h1>
-
-<img src="./media/gt_create_ik_leg.jpg" align="right"
-     alt="GT Create IK Leg GUI">
-
-<p>(This script is still a work in progress)<br>This script assumes that you are using a simple leg composed of a hip joint, a knee joint an ankle joint and maybe ball and toe joints.<br>In case your setup is different, I suggest you try a different solution. </p>
-
-<p><b>Joint Tag (Suffix) and Ctrl Group Tag (Suffix): </b>
-<br>These two textfields allow you to define what suffix you used for you base skeleton joints and your control groups. 
-<br>(used when creating new names or looking for controls)
-<br>The Ctrl Group Tag is used to define the visibility of the FK system.</p>
-
-<p><b>Custom PVector Ctrl, IK Ctrl and IK Switch:  </b>
-<br>These options allow you to load an already existing control.
-<br>In case you already created curve you could simply load them and the script will use yours instead of creating a new one.</p>
-
-<p><b>Colorize Controls:  </b>
-<br>This option looks for "right_" and "left_" tags and assign colors based on the found tag.</p>
-
-<p><b>Make Stretchy Legs: </b>
-<br>This option creates measure tools to define how to strechy the leg when it goes beyong its current size.
-<br>- Term = What is being compared
-<br>- Condition = Default Size (used for scalling the rig)</p>
-
-<p><b>Use Ball Joint:  </b>
-<br>This option allows you to define whether or not to use a ball joint.</p>
-
-<p><b>Load "Content" Buttons:  </b>
-<br>These buttons allow you to load the necessary objects before running the script.</p>
-
-<br>
-
-</div>
-
 
 
 <!-- GT Startup Booster -->
@@ -745,8 +708,8 @@ It works on its own. <br>As the name suggests, it copy transforms, which populat
 <br>Control: General name of the plugin.</p>
 
 <p><b>"Shelf Button" and "Auto Load" Buttons: </b>
-<br>Shelf Button: Creates a Shelf Button (under the current shelf)to load the plugin and give you feedback on its current state.
-<br>Auto Load: Toggles the Auto Load function of the plugin.(same as "Auto Load" in the plugin manager)</p>
+<br>Shelf Button: Creates a Shelf Button (under the current shelf) to load the plugin and give you feedback on its current state.
+<br>Auto Load: Toggles the Auto Load function of the plugin.<br>(same as "Auto Load" in the plugin manager)</p>
 
 <p><b>Custom Shelf Button: </b>
 <br>This script couldn't account for every heavy 3rd party plug-in.This shouldn't be an issue as you can manually add any plugin.
