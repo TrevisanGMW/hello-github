@@ -78,6 +78,7 @@ e.g. .DS_Store
 	- `git branch <branch-name>`
 	- `git branch`
 	- `git checkout <branch-name>`
+	- `git checkout -b <branch-name>` (Create and switch to the branch)
 
 * Changes current remote repository
 	- `git remote set-url origin <URL>`
@@ -105,4 +106,10 @@ e.g. .DS_Store
 	- `git branch --merged`
 	- `git branch -d <Branch-Name>`
 	- `git push origin --delete <Branch-Name>`
+	
+* Misc:
+	-`git pull origin master`
+	-`git checkout -b <branch-name>` (-b : new branch)
+	-`git branch` (tells you what branch youre using)
+	-`git push origin dev` (Push tho this branch)
 
