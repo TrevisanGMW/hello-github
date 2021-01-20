@@ -50,7 +50,7 @@
 <h3><b>Miscellaneous:</b></h3>
 <ul>
   <li><a href="#-gt-startup-booster-">GT Startup Booster</a></li>
-  <li><a href="#-table-of-contents-">GT Maya to Discord</a></li>
+  <li><a href="#-gt-maya-to-discord-">GT Maya to Discord</a></li>
 </ul>
 </div>
 
