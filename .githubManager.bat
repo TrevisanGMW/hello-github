@@ -1,15 +1,12 @@
 @echo off
-REM Script to automatically Push and Pull the Maya settings to Github
-SET CurrentMayaVersion=2019
-SET CopyDirDestination=%UserProfile%\Documents\maya\%CurrentMayaVersion%
+REM Script to automatically Push and Pull to Github
 git status
 :MENU
 @echo. 
 @echo.
 @echo. 1 = GIT PUSH (ALL)
 @echo. 2 = GIT PULL
-@echo. 3 = PUSH TO MAYA FOLDER (ROBOCOPY BRIDGE)
-@echo. 4 = EXIT
+@echo. 3 = EXIT
 @echo. 
 @echo. 
 @echo off
@@ -17,8 +14,7 @@ git status
 SET /P M=Type 1,2,3,4 or 5 then press ENTER:
 IF %M%==1 GOTO PUSH
 IF %M%==2 GOTO PULL
-IF %M%==3 GOTO PUSHMAYA
-IF %M%==4 GOTO EOF
+IF %M%==3 GOTO EOF
 
 :PUSH
 cls
@@ -44,11 +40,6 @@ GOTO MENU
 :PULL
 cls
 git pull
-GOTO MENU
-
-:PUSHMAYA
-SET CopyDirSource=%~dp0
-ROBOCOPY %CopyDirSource% %CopyDirDestination% /E /Z /XF ".git*"
 GOTO MENU
 
 :EOF
