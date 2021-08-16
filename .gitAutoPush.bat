@@ -2,6 +2,7 @@
 REM Script to quickly and automatically Push and Pull to/from Github
 REM 1.1 - 2021/08/16
 REM Changed the date and compName string format: YYYY/MM/DD - TIME (COMPNAME)
+REM Updated file name to gitAutoPush
 
 :GETCURRDIR
 for %%I in (.) do set currDirName=%%~nxI
