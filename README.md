@@ -2,12 +2,16 @@
 Repository used to store useful git resources and basic github commands.
 
 
+![GitHub Octocat](/media/octocat.png)
 
+## 🛠 Useful Resources
+
+
+## 🚀 Github Cheat Sheet
 
 * Opens Help Page
 
-<p style="margin-left: 40px">This text is indented.</p>
-	`git config --help`
+	- `git config --help`
 
 * Shows help for specific action
 	
@@ -30,7 +34,7 @@ Repository used to store useful git resources and basic github commands.
 * Stop Tracking Directory
 	- `rm -rf .git`
 
-* Create 	- `git Ignore File
+* Create git Ignore File
 	- `touch .gitignore`
 e.g. *.pyc
 e.g. .DS_Store
@@ -88,7 +92,6 @@ e.g. .DS_Store
 	
 * Shows difference between old and new file	
 	- `git diff` 
-
 
 * Creates and Switches to branch for desired feature
 	- `git branch <New-Branch-Name>`
