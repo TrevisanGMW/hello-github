@@ -2,7 +2,8 @@
 Repository used to store useful git resources and basic github commands.
 
 
-<div style="text-align: right">![GitHub Octocat](/media/octocat.png)</div>
+<a href="https://github.com/TrevisanGMW/hello-github">
+<img alt="GitHub Octocat" src="../media/octocat.png" ></a>
 
 ## 🛠 Useful Resources
 
