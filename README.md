@@ -1,6 +1,5 @@
 # Git Basic Commands (Hello-World)
-Repository used for practicing github commands.
-
+Repository used to store basic github commands.
 
 * Opens Help Page
 
@@ -107,9 +106,8 @@ e.g. .DS_Store
 	- `git branch -d <Branch-Name>`
 	- `git push origin --delete <Branch-Name>`
 	
-* Misc:
+* Misc Commands:
 	-`git pull origin master`
 	-`git checkout -b <branch-name>` (-b : new branch)
 	-`git branch` (tells you what branch youre using)
 	-`git push origin dev` (Push tho this branch)
-
