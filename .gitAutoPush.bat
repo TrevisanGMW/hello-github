@@ -36,7 +36,6 @@ REM @echo. ________________________________________________________________
 @echo. 
 @echo. 
 @echo off
-pause
 
 SET /P M=Type 1,2,3,4 or 5 then press ENTER:
 IF %M%==1 GOTO PUSH
