@@ -6,9 +6,16 @@ Repository used to store useful git resources and basic github commands.
 
 
 ## 🛠 Useful Resources
+ - https://shields.io/ : Fun shields with custom colors, icons and styles. Like this: <img alt="GitHub Octocat" src="https://img.shields.io/static/v1?message=Github&color=020202&logo=github&logoColor=FFFFFF&label=">
+ - https://simpleicons.org/ : List icons/logos for shield.io images.
+ - https://github.com/anuraghazra/github-readme-stats : Generates quick stats animated image
+ - https://github.com/ashutosh00710/github-readme-activity-graph : Generates a fun graph showing github activity
 
 <a href="https://github.com/TrevisanGMW/hello-github">
 <img alt="GitHub Octocat" src="./media/octocat.png" align="right"></a>
+
+
+
 
 
 
@@ -120,7 +127,7 @@ Repository used to store useful git resources and basic github commands.
 	- `git push origin --delete <Branch-Name>`
 	
 * Misc Commands:
-	- `git pull origin master`
+	- `git pull origin master` (fetches commits from the master branch)
 	- `git checkout -b <branch-name>` (-b : new branch)
-	- `git branch` (tells you what branch youre using)
-	- `git push origin dev` (Push tho this branch)
+	- `git branch` (tells you what branch you're using)
+	- `git push origin dev` (pushes to specific branch)
