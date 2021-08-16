@@ -1,15 +1,17 @@
-# Git Basic Commands (Hello-World)
-Repository used to store basic github commands.
+# Git Resources and Basic Commands (Hello-Github)
+Repository used to store useful git resources and basic github commands.
+
+
+
 
 * Opens Help Page
 
-	- `git config --help`
+	`git config --help`
 
 * Shows help for specific action
 	
 	- `git <verb> --help`
 	- `git help <verb>`
-
 
 * Returns Version
 	- `git --version`
