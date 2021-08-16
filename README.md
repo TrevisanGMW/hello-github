@@ -1,6 +1,21 @@
-# Git Basic Commands (Hello-World)
-Repository used for practicing github commands.
+# Git Resources and Basic Commands (Hello-Github)
+Repository used to store useful git resources and basic github commands.
 
+## 🛠 Useful Resources
+<a href="https://github.com/TrevisanGMW/hello-github">
+<img alt="GitHub Octocat" src="./media/octocat.png" align="right"></a>
+
+ - https://shields.io/<br>
+ Fun shields with custom colors, icons and styles. Like this: <img alt="GitHub Octocat" src="https://img.shields.io/static/v1?message=Github&color=020202&logo=github&logoColor=FFFFFF&label=">
+ - https://simpleicons.org/<br>
+ List icons/logos for shield.io images.
+ - https://github.com/anuraghazra/github-readme-stats<br>
+ Generates quick stats animated image
+ - https://github.com/ashutosh00710/github-readme-activity-graph<br>
+ Generates a fun graph showing github activity
+
+
+## 🚀 Github Cheat Sheet
 
 * Opens Help Page
 
@@ -10,7 +25,6 @@ Repository used for practicing github commands.
 	
 	- `git <verb> --help`
 	- `git help <verb>`
-
 
 * Returns Version
 	- `git --version`
@@ -28,10 +42,11 @@ Repository used for practicing github commands.
 * Stop Tracking Directory
 	- `rm -rf .git`
 
-* Create 	- `git Ignore File
+* Create gitignore File
 	- `touch .gitignore`
-e.g. *.pyc
-e.g. .DS_Store
+
+	e.g. *.pyc<br>
+	e.g. .DS_Store
 
 * Check Status of Current Directory
 	- `git status`
@@ -87,7 +102,6 @@ e.g. .DS_Store
 * Shows difference between old and new file	
 	- `git diff` 
 
-
 * Creates and Switches to branch for desired feature
 	- `git branch <New-Branch-Name>`
 	- `git checkout <New-Branch-Name>`
@@ -107,9 +121,8 @@ e.g. .DS_Store
 	- `git branch -d <Branch-Name>`
 	- `git push origin --delete <Branch-Name>`
 	
-* Misc:
-	-`git pull origin master`
-	-`git checkout -b <branch-name>` (-b : new branch)
-	-`git branch` (tells you what branch youre using)
-	-`git push origin dev` (Push tho this branch)
-
+* Misc Commands:
+	- `git pull origin master` (fetches commits from the master branch)
+	- `git checkout -b <branch-name>` (-b : new branch)
+	- `git branch` (tells you what branch you're using)
+	- `git push origin dev` (pushes to specific branch)
