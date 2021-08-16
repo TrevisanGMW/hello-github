@@ -2,11 +2,15 @@
 Repository used to store useful git resources and basic github commands.
 
 
+
+
+
+## 🛠 Useful Resources
+
 <a href="https://github.com/TrevisanGMW/hello-github">
 <img alt="GitHub Octocat" src="./media/octocat.png" align="right"></a>
 
 
-## 🛠 Useful Resources
 
 
 ## 🚀 Github Cheat Sheet
@@ -38,8 +42,8 @@ Repository used to store useful git resources and basic github commands.
 
 * Create git Ignore File
 	- `touch .gitignore`
-e.g. *.pyc
-e.g. .DS_Store
+- e.g. *.pyc
+- e.g. .DS_Store
 
 * Check Status of Current Directory
 	- `git status`
