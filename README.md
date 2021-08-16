@@ -42,9 +42,9 @@ Repository used to store useful git resources and basic github commands.
 
 * Create gitignore File
 	- `touch .gitignore`
-	
-- e.g. *.pyc
-- e.g. .DS_Store
+
+	e.g. *.pyc<br>
+	e.g. .DS_Store
 
 * Check Status of Current Directory
 	- `git status`
