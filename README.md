@@ -1,23 +1,18 @@
 # Git Resources and Basic Commands (Hello-Github)
 Repository used to store useful git resources and basic github commands.
 
-
-
-
-
 ## 🛠 Useful Resources
- - https://shields.io/ : Fun shields with custom colors, icons and styles. Like this: <img alt="GitHub Octocat" src="https://img.shields.io/static/v1?message=Github&color=020202&logo=github&logoColor=FFFFFF&label=">
- - https://simpleicons.org/ : List icons/logos for shield.io images.
- - https://github.com/anuraghazra/github-readme-stats : Generates quick stats animated image
- - https://github.com/ashutosh00710/github-readme-activity-graph : Generates a fun graph showing github activity
-
 <a href="https://github.com/TrevisanGMW/hello-github">
 <img alt="GitHub Octocat" src="./media/octocat.png" align="right"></a>
 
-
-
-
-
+ - https://shields.io/<br>
+ Fun shields with custom colors, icons and styles. Like this: <img alt="GitHub Octocat" src="https://img.shields.io/static/v1?message=Github&color=020202&logo=github&logoColor=FFFFFF&label=">
+ - https://simpleicons.org/<br>
+ List icons/logos for shield.io images.
+ - https://github.com/anuraghazra/github-readme-stats<br>
+ Generates quick stats animated image
+ - https://github.com/ashutosh00710/github-readme-activity-graph<br>
+ Generates a fun graph showing github activity
 
 
 ## 🚀 Github Cheat Sheet
