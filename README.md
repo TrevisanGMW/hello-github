@@ -120,7 +120,7 @@ Repository used to store useful git resources and basic github commands.
 	- `git push origin --delete <Branch-Name>`
 	
 * Misc Commands:
-	-`git pull origin master`
-	-`git checkout -b <branch-name>` (-b : new branch)
-	-`git branch` (tells you what branch youre using)
-	-`git push origin dev` (Push tho this branch)
+	- `git pull origin master`
+	- `git checkout -b <branch-name>` (-b : new branch)
+	- `git branch` (tells you what branch youre using)
+	- `git push origin dev` (Push tho this branch)
