@@ -6,6 +6,7 @@ Repository used to store useful git resources and basic github commands.
 
 * Opens Help Page
 
+<p style="margin-left: 40px">This text is indented.</p>
 	`git config --help`
 
 * Shows help for specific action
