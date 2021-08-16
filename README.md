@@ -40,8 +40,9 @@ Repository used to store useful git resources and basic github commands.
 * Stop Tracking Directory
 	- `rm -rf .git`
 
-* Create git Ignore File
+* Create gitignore File
 	- `touch .gitignore`
+	
 - e.g. *.pyc
 - e.g. .DS_Store
 
