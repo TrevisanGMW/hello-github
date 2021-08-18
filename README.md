@@ -13,6 +13,10 @@ Repository used to store useful git resources and basic github commands.
  Generates quick stats animated image
  - https://github.com/ashutosh00710/github-readme-activity-graph<br>
  Generates a fun graph showing github activity
+ - [Github Cheat Sheet](#-github-cheat-sheet)<br>
+ A list of basic github commands
+ - [Commonly Used Emojis](#-commonly-used-emojis)<br>
+ A list of some of my favorite emojis
 
 
 ## 🚀 Github Cheat Sheet
@@ -126,3 +130,74 @@ Repository used to store useful git resources and basic github commands.
 	- `git checkout -b <branch-name>` (-b : new branch)
 	- `git branch` (tells you what branch you're using)
 	- `git push origin dev` (pushes to specific branch)
+
+
+<br>
+
+## 👻 Commonly Used Emojis
+
+| ico | shortcode | ico | shortcode |
+| :-: | - | :-: | - |
+| 😂 | `:joy:` | 😅 | `:sweat_smile:` | 
+| 😉 | `:wink:` | 😊 | `:blush:` | 
+| 🥰 | `:smiling_face_with_three_hearts:` | 😍 | `:heart_eyes:` | 
+| 🤩 | `:star_struck:` | 😘 | `:kissing_heart:` | 
+| 😜 | `:stuck_out_tongue_winking_eye:` | 🤪 | `:zany_face:` | 
+| 🤨 | `:raised_eyebrow:` | 🤔 | `:thinking:` | 
+| 😏 | `:smirk:` | 🙄 | `:roll_eyes:` | 
+| 😬 | `:grimacing:` | 😵 | `:dizzy_face:` | 
+| 😎 | `:sunglasses:` | 🥳 | `:partying_face:` | 
+| 🤓 | `:nerd_face:` | 😱 | `:scream:` | 
+| 😲 | `:astonished:` | 😮 | `:open_mouth:` | 
+| 😲 | `:astonished:` | 😮 | `:open_mouth:` | 
+| 👻 | `:ghost:` | 🙈 | `:see_no_evil:` | 
+| ❤️ | `:heart:` | 💣 | `:bomb:` | 
+| 👋 | `:wave:` | 🤘 | `:metal:` | 
+| 👍 | `:thumbsup:` | 🙌 | `:raised_hands:` | 
+| 🙅 | `:no_good_woman:` | 🙅‍♂️ | `:no_good_man:` | 
+| 🤷 | `:woman_shrugging:` | 🤷‍♂️ | `:man_shrugging:` | 
+| 👩‍💻 | `:woman_technologist:` | 👨‍💻 | `:man_technologist:` | 
+| 👨‍🚀 | `:man_astronaut:` | 🧙 | `:mage:` | 
+| 🏃‍♀️ | `:running_woman:` | 🏃‍♂️ | `:running_man:` | 
+| 🦝 | `:raccoon:` | 👣 | `:footprints:` | 
+| 🐧 | `:penguin:` | 🐹 | `:hamster:` | 
+| 🦜 | `:parrot:` | 🦆 | `:duck:` | 
+| 🐍 | `:snake:` | 🦕 | `:sauropod:` | 
+| 🐙 | `:octopus:` | 🐳 | `:whale:` | 
+| 🕷️ | `:spider:` | 🕸️ | `:spider_web:` | 
+| 🌷 | `:tulip:` | 🍁 | `:maple_leaf:` | 
+| 🍉 | `:watermelon:` | 🍒 | `:cherries:` | 
+| 🥕 | `:carrot:` | 🍆 | `:eggplant:` | 
+| 🍖 | `:meat_on_bone:` | 🍗 | `:poultry_leg:` | 
+| 🍕 | `:pizza:` | 🦞 | `:lobster:` | 
+| 🍩 | `:doughnut:` | 🍪 | `:cookie:` | 
+| 🍬 | `:candy:` | 🎂 | `:birthday:` | 
+| ☕ | `:coffee:` | 🧃 | `:beverage_box:` | 
+| 🌎 | `:earth_americas:` | 🏗️ | `:building_construction:` | 
+| 🚂 | `:steam_locomotive:` | 🚗 | `:car:` | 
+| 🚀 | `:rocket:` | 🌡️ | `:thermometer:` | 
+| 🌟 | `:star2:` | 🌌 | `:milky_way:` | 
+| ☃️ | `:snowman_with_snow:` | 🎈 | `:balloon:` | 
+| 💧 | `:droplet:` | 🔥 | `:fire:` | 
+| 🧨 | `:firecracker:` | 🎉 | `:tada:` | 
+| 🎮 | `:video_game:` | 🎊 | `:confetti_ball:` | 
+| 🕹️ | `:joystick:` | 💎 | `:gem:` | 
+| 🎧 | `:headphones:` | 🎺 | `:trumpet:` | 
+| 📕 | `:closed_book:` | 📗 | `:green_book:` | 
+| 📘 | `:blue_book:` | 📙 | `:orange_book:` | 
+| 📚 | `:books:` | 📓 | `:notebook:` | 
+| 📜 | `:scroll:` | 📃 | `:page_with_curl:` | 
+| 🖌️ | `:paintbrush:` | ✏️ | `:pencil2:` | 
+| 📌 | `:pushpin:` | 📍 | `:round_pushpin:` | 
+| ✂️ | `:scissors:` | 🔑 | `:key:` | 
+| 🔨 | `:hammer:` | 🪓 | `:axe:` | 
+| ⛏️ | `:pick:` | ⚒️ | `:hammer_and_pick:` | 
+| 🛠️ | `:hammer_and_wrench:` | 🔫 | `:gun:` | 
+| ⚙️ | `:gear:` | 🧰 | `:toolbox:` | 
+| 📡 | `:satellite:` | 🧬 | `:dna:` | 
+| 💉 | `:syringe:` | 🩸 | `:drop_of_blood:` | 
+| 🛒 | `:shopping_cart:` | ☢️ | `:radioactive:` | 
+| ❓ | `:question:` | ‼️ | `:bangbang:` | 
+| ✔️ | `:heavy_check_mark:` | ❌ | `:x:` | 
+| 🟢 | `:green_circle:` | 🔴 | `:red_circle:` | 
+| 🏴‍☠️ | `:pirate_flag:` | ⚠️ | `:warning:` | 
