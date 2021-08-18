@@ -13,9 +13,9 @@ Repository used to store useful git resources and basic github commands.
  Generates quick stats animated image
  - https://github.com/ashutosh00710/github-readme-activity-graph<br>
  Generates a fun graph showing github activity
- - [Github Cheat Sheet](#---github-cheat-sheet)<br>
+ - [Github Cheat Sheet](#-github-cheat-sheet)<br>
  A list of basic github commands
- - [Commonly Used Emojis](#---commonly-used-emojis)<br>
+ - [Commonly Used Emojis](#-commonly-used-emojis)<br>
  A list of some of my favorite emojis
 
 
