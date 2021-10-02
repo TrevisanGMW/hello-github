@@ -24,7 +24,7 @@ Repository used to store useful git resources and basic git commands.
 - [Commonly Used Emojis](#-commonly-used-emojis)<br>
   A list of some of my favorite emojis
 
-## 🚀 Git Workflow Strategies
+## 📡 Git Workflow Strategies
 
 ### Commits
 
