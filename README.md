@@ -26,13 +26,13 @@ Repository used to store useful git resources and basic git commands.
 
 ## 🚀 Git Workflow Strategies
 
-# Commits
+### Commits
 
 - Commits should only include changes from the same topic in a single commit.
 - Commit message subject: Subject should be concise summary of what happened.
 - Commit message body: More detailed explanation (what is now different? Reason, etc...)
 
-# Branching
+### Branching
 
 - Consider creating a written branch convention to avoid collisions or mistakes.
   - ` e.g. Few branches, relatively small commits, high-quality testing & QA standards`
@@ -41,7 +41,7 @@ Repository used to store useful git resources and basic git commands.
 - Avoid direct commits. Always push the code to a development brush to be tested and reviewed before committing to it.
 - Take inspiration for branching from well structures already existing models such as “Github Flow” or “GitFlow”.
 
-# Other Considerations
+### Other Considerations
 
 - Pull Requests: Fork (Personal Copy) -> Make Changes -> Make Pull request to include changes.
 
