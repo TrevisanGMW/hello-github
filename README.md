@@ -8,7 +8,7 @@ Repository used to store useful git resources and basic git commands.
 <img alt="GitHub Octocat" src="./media/octocat.png" align="right"></a>
 
 - https://shields.io/<br>
-  Fun shields with custom colors, icons and styles. Like this: <img alt="GitHub Octocat" src="https://img.shields.io/static/v1?message=Github&color=020202&logo=github&logoColor=FFFFFF&label=">
+  Fun shields with custom colors, icons and styles. For example:<br><img alt="GitHub Octocat" src="https://img.shields.io/static/v1?message=Github&color=020202&logo=github&logoColor=FFFFFF&label=">&nbsp;&nbsp;<img alt="Visit Counter" src="https://visitor-badge.glitch.me/badge?page_id=hello-github&left_color=black&right_color=grey">
 - https://simpleicons.org/<br>
   List icons/logos for shield.io images.
 - https://github.com/anuraghazra/github-readme-stats<br>
